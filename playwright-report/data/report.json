@@ -1,0 +1,467 @@
+{
+  "files": [
+    {
+      "fileId": "8447a8f01d10ccd56e30313d2f09ec832af78a29",
+      "fileName": "tests/demo-qa/01-elements/elements.test.js",
+      "tests": [
+        {
+          "testId": "8447a8f01d10ccd56e30313d2f09ec832af78a29-9ae7748142eca8cc1d0ea17d70e7346c6c4be83f",
+          "title": "Should be able to fill Text Box and submit the form",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/01-elements/elements.test.js",
+            "line": 14,
+            "column": 5
+          },
+          "duration": 9617,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/01-elements/elements.test.js:14",
+            "Test Elements on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "8447a8f01d10ccd56e30313d2f09ec832af78a29-3075e2163cf4bd2909a0d2cdb2ef5f4dae94389b",
+          "title": "Should be able to fill Checkbox",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/01-elements/elements.test.js",
+            "line": 34,
+            "column": 5
+          },
+          "duration": 8315,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/01-elements/elements.test.js:34",
+            "Test Elements on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "8447a8f01d10ccd56e30313d2f09ec832af78a29-ca3239761f2d99bf213f48861b491c18eac71eaa",
+          "title": "Should be able to fill Radio Button",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/01-elements/elements.test.js",
+            "line": 45,
+            "column": 5
+          },
+          "duration": 7340,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/01-elements/elements.test.js:45",
+            "Test Elements on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "8447a8f01d10ccd56e30313d2f09ec832af78a29-d4b00db0d870b71461a84d4b666b540b1e65102c",
+          "title": "Should be able to read from Table",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/01-elements/elements.test.js",
+            "line": 54,
+            "column": 5
+          },
+          "duration": 13960,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/01-elements/elements.test.js:54",
+            "Test Elements on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "8447a8f01d10ccd56e30313d2f09ec832af78a29-1f4faea6109555ad5b5d5eab3d60f9d23fac161d",
+          "title": "Should be able to interact with Buttons (click, double-click and right-click)",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/01-elements/elements.test.js",
+            "line": 99,
+            "column": 5
+          },
+          "duration": 7906,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/01-elements/elements.test.js:99",
+            "Test Elements on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "8447a8f01d10ccd56e30313d2f09ec832af78a29-79ab1e83c5a87506af9b47d416f892cb7350be12",
+          "title": "Should be able to interact with links with endpoint validation and changing tabs",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/01-elements/elements.test.js",
+            "line": 116,
+            "column": 5
+          },
+          "duration": 13709,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/01-elements/elements.test.js:116",
+            "Test Elements on Demo QA site"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 6,
+        "expected": 6,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 60847
+      }
+    },
+    {
+      "fileId": "976bf7d3d269046f79b2cf09710a6c0426fc698d",
+      "fileName": "tests/demo-qa/02-forms/forms.test.js",
+      "tests": [
+        {
+          "testId": "976bf7d3d269046f79b2cf09710a6c0426fc698d-f10e4274fad6088ee3c7930f720693233bed4fef",
+          "title": "Should be able to fill and submit the form",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/02-forms/forms.test.js",
+            "line": 14,
+            "column": 5
+          },
+          "duration": 7763,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/02-forms/forms.test.js:14",
+            "Test Forms on Demo QA site"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 7763
+      }
+    },
+    {
+      "fileId": "10a688c3bb1d39a42e6ff50021f6b6b67f67afd6",
+      "fileName": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+      "tests": [
+        {
+          "testId": "10a688c3bb1d39a42e6ff50021f6b6b67f67afd6-469adc862fcab5924ed40801988e4f99b80abade",
+          "title": "Should be able to interact with alerts 1  - Click Button to see alert",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+            "line": 14,
+            "column": 5
+          },
+          "duration": 10829,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:14",
+            "Test Alerts, Frames and Windows on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "10a688c3bb1d39a42e6ff50021f6b6b67f67afd6-55bcee6f90b3dfe2dafbf3245337884830a44d3f",
+          "title": "Should be able to interact with alerts 2 - Alert appears after 5 seconds",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 13289,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:26",
+            "Test Alerts, Frames and Windows on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "10a688c3bb1d39a42e6ff50021f6b6b67f67afd6-c2e6734b69f105a25d80bfbc0165fa9bd3862688",
+          "title": "Should be able to interact with alerts 3 - Select Cancel on confirm box",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+            "line": 40,
+            "column": 5
+          },
+          "duration": 6647,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:40",
+            "Test Alerts, Frames and Windows on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "10a688c3bb1d39a42e6ff50021f6b6b67f67afd6-2b0fc272e20fe6b9a5831b3c127c3a0bcaddc411",
+          "title": "Should be able to interact with alerts 4 - Select Ok on confirm box",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+            "line": 53,
+            "column": 5
+          },
+          "duration": 7421,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:53",
+            "Test Alerts, Frames and Windows on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "10a688c3bb1d39a42e6ff50021f6b6b67f67afd6-a0d961abca220985480cd79838b0adaa75f29da3",
+          "title": "Should be able to interact with alerts 5 - Fill prompt box",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+            "line": 66,
+            "column": 5
+          },
+          "duration": 26748,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:66",
+            "Test Alerts, Frames and Windows on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "10a688c3bb1d39a42e6ff50021f6b6b67f67afd6-96c3b41824817b190cfb95088559b985e2fdf4c0",
+          "title": "Should be able to interact with modals - Small and Large modals",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+            "line": 79,
+            "column": 5
+          },
+          "duration": 8168,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:79",
+            "Test Alerts, Frames and Windows on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "10a688c3bb1d39a42e6ff50021f6b6b67f67afd6-c840e460861d12acc33316f7372bf2ae0333831b",
+          "title": "Should be able to interact with browser windows",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+            "line": 94,
+            "column": 5
+          },
+          "duration": 10193,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:94",
+            "Test Alerts, Frames and Windows on Demo QA site"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 7,
+        "expected": 7,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 83295
+      }
+    },
+    {
+      "fileId": "0506ec93105c1457529b78e80b1f4b99b8e116ae",
+      "fileName": "tests/demo-qa/04-widgets/widget.test.js",
+      "tests": [
+        {
+          "testId": "0506ec93105c1457529b78e80b1f4b99b8e116ae-dac2a6751d3316194e1f6a94eee4bb403d5201bb",
+          "title": "Should be able to interact with Accordion Widgets",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/04-widgets/widget.test.js",
+            "line": 14,
+            "column": 5
+          },
+          "duration": 10434,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/04-widgets/widget.test.js:14",
+            "Test Widgets on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "0506ec93105c1457529b78e80b1f4b99b8e116ae-703aa907667772f0c9d257738c8011eb5fdfcd63",
+          "title": "Should be able to interact with Auto Complete Widgets",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/04-widgets/widget.test.js",
+            "line": 82,
+            "column": 5
+          },
+          "duration": 8528,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/04-widgets/widget.test.js:82",
+            "Test Widgets on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "0506ec93105c1457529b78e80b1f4b99b8e116ae-11b1ffbdd1183e90c9c0956a8f7f7bedfffc6d92",
+          "title": "Should be able to interact with Date Picker Widgets",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/04-widgets/widget.test.js",
+            "line": 111,
+            "column": 5
+          },
+          "duration": 9564,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/04-widgets/widget.test.js:111",
+            "Test Widgets on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "0506ec93105c1457529b78e80b1f4b99b8e116ae-1ff67247d3dc419865750c2bfbac61b43ad6976d",
+          "title": "Should be able to interact with Slider Widgets",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/04-widgets/widget.test.js",
+            "line": 146,
+            "column": 5
+          },
+          "duration": 7406,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/04-widgets/widget.test.js:146",
+            "Test Widgets on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "0506ec93105c1457529b78e80b1f4b99b8e116ae-360f90aefa1f06811470b815dad7040f556037d3",
+          "title": "Should be able to interact with Progress Bar Widgets",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/04-widgets/widget.test.js",
+            "line": 163,
+            "column": 5
+          },
+          "duration": 17626,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/04-widgets/widget.test.js:163",
+            "Test Widgets on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "0506ec93105c1457529b78e80b1f4b99b8e116ae-3e1fc77d24f38e84492e03dc2fe6a678636ade11",
+          "title": "Should be able to interact with Tabs Widgets",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/04-widgets/widget.test.js",
+            "line": 192,
+            "column": 5
+          },
+          "duration": 8220,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/04-widgets/widget.test.js:192",
+            "Test Widgets on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "0506ec93105c1457529b78e80b1f4b99b8e116ae-5926069672ed6440b560376f69e72d1f8d705865",
+          "title": "Should be able to interact with Tool Tips Widgets",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/04-widgets/widget.test.js",
+            "line": 293,
+            "column": 5
+          },
+          "duration": 10822,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/04-widgets/widget.test.js:293",
+            "Test Widgets on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "0506ec93105c1457529b78e80b1f4b99b8e116ae-a55f11643719f7230dd5df261e679845b1b8848d",
+          "title": "Should be able to interact with Menu Widgets",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/04-widgets/widget.test.js",
+            "line": 324,
+            "column": 5
+          },
+          "duration": 7219,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/04-widgets/widget.test.js:324",
+            "Test Widgets on Demo QA site"
+          ],
+          "ok": true
+        },
+        {
+          "testId": "0506ec93105c1457529b78e80b1f4b99b8e116ae-007a3784891b06660979989111cb7efe898b31bf",
+          "title": "Should be able to interact with Select Menu Widgets",
+          "projectName": "",
+          "location": {
+            "file": "tests/demo-qa/04-widgets/widget.test.js",
+            "line": 347,
+            "column": 5
+          },
+          "duration": 9623,
+          "outcome": "expected",
+          "path": [
+            "tests/demo-qa/04-widgets/widget.test.js:347",
+            "Test Widgets on Demo QA site"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 9,
+        "expected": 9,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 89442
+      }
+    }
+  ],
+  "projectNames": [
+    ""
+  ],
+  "stats": {
+    "total": 23,
+    "expected": 23,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true,
+    "duration": 241347
+  }
+}
