@@ -212,4 +212,21 @@ test.describe("Test Elements on Demo QA site", () => {
         await expect(newDynamicPage).toHaveURL("https://demoqa.com/");
         expect(newDynamicPage.url().includes("links")).toBeFalsy();
     });
+
+    test('Should be able to interact with the files upload and download', async () => {
+        
+        await page.goto("https://demoqa.com/upload-download");
+    
+        const [ download ] = await Promise.all([
+            page.waitForEvent('download'),
+            page.click("//a[@id='downloadButton']")
+          ]);
+        const nameFile = download.suggestedFilename();
+        
+        expect(nameFile.includes("sampleFile")).toBeTruthy();
+    
+        await page.setInputFiles("//input[@id='uploadFile']", './fixtures/testPicture.png');
+    
+        await expect(page.locator("//p[@id='uploadedFilePath']")).toContainText(/testPicture.png/);
+    });
 });

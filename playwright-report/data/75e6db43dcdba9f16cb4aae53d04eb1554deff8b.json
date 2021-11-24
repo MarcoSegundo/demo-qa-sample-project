@@ -1,9 +1,9 @@
 {
-  "fileId": "976bf7d3d269046f79b2cf09710a6c0426fc698d",
+  "fileId": "75e6db43dcdba9f16cb4aae53d04eb1554deff8b",
   "fileName": "tests/demo-qa/02-forms/forms.test.js",
   "tests": [
     {
-      "testId": "976bf7d3d269046f79b2cf09710a6c0426fc698d-f10e4274fad6088ee3c7930f720693233bed4fef",
+      "testId": "75e6db43dcdba9f16cb4aae53d04eb1554deff8b-f10e4274fad6088ee3c7930f720693233bed4fef",
       "title": "Should be able to fill and submit the form",
       "projectName": "",
       "location": {
@@ -11,7 +11,7 @@
         "line": 14,
         "column": 5
       },
-      "duration": 7763,
+      "duration": 6007,
       "outcome": "expected",
       "path": [
         "tests/demo-qa/02-forms/forms.test.js:14",
@@ -19,19 +19,19 @@
       ],
       "results": [
         {
-          "duration": 7763,
-          "startTime": "2021-11-12T03:26:47.866Z",
+          "duration": 6007,
+          "startTime": "2021-11-23T23:42:51.480Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-12T03:26:47.867Z",
-              "duration": 2360,
+              "startTime": "2021-11-23T23:42:51.481Z",
+              "duration": 2018,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-12T03:26:49.433Z",
-                  "duration": 794,
+                  "startTime": "2021-11-23T23:42:52.831Z",
+                  "duration": 667,
                   "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m         context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
                   "steps": [],
                   "location": {
@@ -44,8 +44,8 @@
             },
             {
               "title": "page.goto(https://demoqa.com/automation-practice-form)",
-              "startTime": "2021-11-12T03:26:50.227Z",
-              "duration": 4497,
+              "startTime": "2021-11-23T23:42:53.499Z",
+              "duration": 3281,
               "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/automation-practice-form\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -56,8 +56,8 @@
             },
             {
               "title": "page.fill(//input[@id='firstName'])",
-              "startTime": "2021-11-12T03:26:54.724Z",
-              "duration": 20,
+              "startTime": "2021-11-23T23:42:56.780Z",
+              "duration": 21,
               "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='firstName']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Lainey'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -68,8 +68,8 @@
             },
             {
               "title": "page.fill(//input[@id='lastName'])",
-              "startTime": "2021-11-12T03:26:54.744Z",
-              "duration": 29,
+              "startTime": "2021-11-23T23:42:56.801Z",
+              "duration": 8,
               "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='lastName']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Ross'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -80,7 +80,7 @@
             },
             {
               "title": "page.fill(//input[@id='userEmail'])",
-              "startTime": "2021-11-12T03:26:54.773Z",
+              "startTime": "2021-11-23T23:42:56.809Z",
               "duration": 8,
               "snippet": "\u001b[0m \u001b[90m 21 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='userEmail']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'nullchar@demoqa.com'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m\u001b[0m",
               "steps": [],
@@ -92,8 +92,8 @@
             },
             {
               "title": "page.click(//label[contains(text(),'Male')])",
-              "startTime": "2021-11-12T03:26:54.781Z",
-              "duration": 57,
+              "startTime": "2021-11-23T23:42:56.817Z",
+              "duration": 47,
               "snippet": "\u001b[0m \u001b[90m 23 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//label[contains(text(),'Male')]\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -104,8 +104,8 @@
             },
             {
               "title": "page.fill(//input[@id='userNumber'])",
-              "startTime": "2021-11-12T03:26:54.838Z",
-              "duration": 14,
+              "startTime": "2021-11-23T23:42:56.865Z",
+              "duration": 7,
               "snippet": "\u001b[0m \u001b[90m 25 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 26 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='userNumber']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'4865596142'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -116,8 +116,8 @@
             },
             {
               "title": "page.click(//input[@id='dateOfBirthInput'])",
-              "startTime": "2021-11-12T03:26:54.852Z",
-              "duration": 106,
+              "startTime": "2021-11-23T23:42:56.872Z",
+              "duration": 85,
               "snippet": "\u001b[0m \u001b[90m 27 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 28 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//input[@id='dateOfBirthInput']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -128,8 +128,8 @@
             },
             {
               "title": "page.selectOption(//select[@class='react-datepicker__month-select'])",
-              "startTime": "2021-11-12T03:26:54.959Z",
-              "duration": 19,
+              "startTime": "2021-11-23T23:42:56.958Z",
+              "duration": 17,
               "snippet": "\u001b[0m \u001b[90m 29 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 30 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mselectOption(\u001b[32m\"//select[@class='react-datepicker__month-select']\"\u001b[39m\u001b[33m,\u001b[39m { label\u001b[33m:\u001b[39m \u001b[32m'July'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 31 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -140,7 +140,7 @@
             },
             {
               "title": "page.selectOption(//select[@class='react-datepicker__year-select'])",
-              "startTime": "2021-11-12T03:26:54.979Z",
+              "startTime": "2021-11-23T23:42:56.975Z",
               "duration": 14,
               "snippet": "\u001b[0m \u001b[90m 31 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mselectOption(\u001b[32m\"//select[@class='react-datepicker__year-select']\"\u001b[39m\u001b[33m,\u001b[39m { label\u001b[33m:\u001b[39m \u001b[32m'2020'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m\u001b[0m",
               "steps": [],
@@ -152,8 +152,8 @@
             },
             {
               "title": "page.click(//div[@class='react-datepicker__week']//div[contains(@aria-label,'July 7th')])",
-              "startTime": "2021-11-12T03:26:54.994Z",
-              "duration": 76,
+              "startTime": "2021-11-23T23:42:56.989Z",
+              "duration": 60,
               "snippet": "\u001b[0m \u001b[90m 33 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//div[@class='react-datepicker__week']//div[contains(@aria-label,'July 7th')]\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -164,8 +164,8 @@
             },
             {
               "title": "page.fill(//input[@id='subjectsInput'])",
-              "startTime": "2021-11-12T03:26:55.071Z",
-              "duration": 23,
+              "startTime": "2021-11-23T23:42:57.049Z",
+              "duration": 19,
               "snippet": "\u001b[0m \u001b[90m 35 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='subjectsInput']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Maths'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -176,8 +176,8 @@
             },
             {
               "title": "page.click(//div[contains(@class,'subjects-auto-complete__option') and text()='Maths'])",
-              "startTime": "2021-11-12T03:26:55.094Z",
-              "duration": 73,
+              "startTime": "2021-11-23T23:42:57.069Z",
+              "duration": 59,
               "snippet": "\u001b[0m \u001b[90m 37 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//div[contains(@class,'subjects-auto-complete__option') and text()='Maths']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -188,8 +188,8 @@
             },
             {
               "title": "page.check(//label[contains(text(),'Sports')])",
-              "startTime": "2021-11-12T03:26:55.167Z",
-              "duration": 20,
+              "startTime": "2021-11-23T23:42:57.128Z",
+              "duration": 15,
               "snippet": "\u001b[0m \u001b[90m 39 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mcheck(\u001b[32m\"//label[contains(text(),'Sports')]\"\u001b[39m\u001b[33m,\u001b[39m {force\u001b[33m:\u001b[39m\u001b[36mtrue\u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -200,8 +200,8 @@
             },
             {
               "title": "page.check(//label[contains(text(),'Music')])",
-              "startTime": "2021-11-12T03:26:55.188Z",
-              "duration": 16,
+              "startTime": "2021-11-23T23:42:57.143Z",
+              "duration": 15,
               "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mcheck(\u001b[32m\"//label[contains(text(),'Music')]\"\u001b[39m\u001b[33m,\u001b[39m {force\u001b[33m:\u001b[39m\u001b[36mtrue\u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -212,8 +212,8 @@
             },
             {
               "title": "page.setInputFiles(input[type=\"file\"])",
-              "startTime": "2021-11-12T03:26:55.208Z",
-              "duration": 15,
+              "startTime": "2021-11-23T23:42:57.160Z",
+              "duration": 12,
               "snippet": "\u001b[0m \u001b[90m 43 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39msetInputFiles(\u001b[32m'input[type=\"file\"]'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'./fixtures/testPicture.png'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -224,8 +224,8 @@
             },
             {
               "title": "page.fill(//textarea[@id='currentAddress'])",
-              "startTime": "2021-11-12T03:26:55.223Z",
-              "duration": 19,
+              "startTime": "2021-11-23T23:42:57.172Z",
+              "duration": 8,
               "snippet": "\u001b[0m \u001b[90m 45 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//textarea[@id='currentAddress']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'768 Gainsway Street Lawrenceville, GA 30043'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -236,8 +236,8 @@
             },
             {
               "title": "page.click(//div[@id='state'])",
-              "startTime": "2021-11-12T03:26:55.242Z",
-              "duration": 46,
+              "startTime": "2021-11-23T23:42:57.180Z",
+              "duration": 48,
               "snippet": "\u001b[0m \u001b[90m 47 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 48 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//div[@id='state']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 49 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -248,8 +248,8 @@
             },
             {
               "title": "page.click(//*[contains(@tabindex,'-1')])",
-              "startTime": "2021-11-12T03:26:55.288Z",
-              "duration": 40,
+              "startTime": "2021-11-23T23:42:57.228Z",
+              "duration": 60,
               "snippet": "\u001b[0m \u001b[90m 49 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 50 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//*[contains(@tabindex,'-1')]\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 51 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -260,8 +260,8 @@
             },
             {
               "title": "page.click(//div[@id='city'])",
-              "startTime": "2021-11-12T03:26:55.329Z",
-              "duration": 47,
+              "startTime": "2021-11-23T23:42:57.288Z",
+              "duration": 39,
               "snippet": "\u001b[0m \u001b[90m 51 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 52 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//div[@id='city']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 53 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -272,8 +272,8 @@
             },
             {
               "title": "page.click(//*[contains(@tabindex,'-1')])",
-              "startTime": "2021-11-12T03:26:55.377Z",
-              "duration": 51,
+              "startTime": "2021-11-23T23:42:57.327Z",
+              "duration": 58,
               "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 54 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//*[contains(@tabindex,'-1')]\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 55 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -284,8 +284,8 @@
             },
             {
               "title": "page.click(//button[@id='submit'])",
-              "startTime": "2021-11-12T03:26:55.428Z",
-              "duration": 103,
+              "startTime": "2021-11-23T23:42:57.385Z",
+              "duration": 64,
               "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 56 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='submit']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 57 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -296,8 +296,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-12T03:26:55.531Z",
-              "duration": 43,
+              "startTime": "2021-11-23T23:42:57.449Z",
+              "duration": 5,
               "snippet": "\u001b[0m \u001b[90m 57 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 58 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Student Name')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Lainey Ross/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 59 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Student Email')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/nullchar@demoqa.com/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -308,8 +308,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-12T03:26:55.575Z",
-              "duration": 10,
+              "startTime": "2021-11-23T23:42:57.455Z",
+              "duration": 3,
               "snippet": "\u001b[0m \u001b[90m 58 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Student Name')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Lainey Ross/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 59 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Student Email')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/nullchar@demoqa.com/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                                                                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 60 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Gender')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Male/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -320,8 +320,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-12T03:26:55.586Z",
-              "duration": 4,
+              "startTime": "2021-11-23T23:42:57.458Z",
+              "duration": 2,
               "snippet": "\u001b[0m \u001b[90m 59 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Student Email')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/nullchar@demoqa.com/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 60 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Gender')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Male/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Mobile')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/4865596142/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -332,8 +332,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-12T03:26:55.590Z",
-              "duration": 4,
+              "startTime": "2021-11-23T23:42:57.460Z",
+              "duration": 6,
               "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Gender')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Male/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Mobile')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/4865596142/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 62 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Date of Birth')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/7 July,2020/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -344,8 +344,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-12T03:26:55.594Z",
-              "duration": 10,
+              "startTime": "2021-11-23T23:42:57.466Z",
+              "duration": 3,
               "snippet": "\u001b[0m \u001b[90m 61 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Mobile')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/4865596142/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 62 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Date of Birth')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/7 July,2020/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                                                                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 63 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Subjects')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Maths/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -356,8 +356,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-12T03:26:55.605Z",
-              "duration": 3,
+              "startTime": "2021-11-23T23:42:57.469Z",
+              "duration": 2,
               "snippet": "\u001b[0m \u001b[90m 62 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Date of Birth')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/7 July,2020/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 63 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Subjects')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Maths/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                                                              ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 64 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Hobbies')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Sports, Music/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -368,8 +368,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-12T03:26:55.608Z",
-              "duration": 4,
+              "startTime": "2021-11-23T23:42:57.472Z",
+              "duration": 2,
               "snippet": "\u001b[0m \u001b[90m 63 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Subjects')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Maths/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 64 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Hobbies')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Sports, Music/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                                                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 65 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Picture')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/testPicture.png/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -380,8 +380,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-12T03:26:55.612Z",
-              "duration": 7,
+              "startTime": "2021-11-23T23:42:57.474Z",
+              "duration": 2,
               "snippet": "\u001b[0m \u001b[90m 64 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Hobbies')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Sports, Music/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 65 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Picture')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/testPicture.png/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                                                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 66 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Address')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/768 Gainsway Street Lawrenceville, GA 30043/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -392,8 +392,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-12T03:26:55.619Z",
-              "duration": 4,
+              "startTime": "2021-11-23T23:42:57.477Z",
+              "duration": 5,
               "snippet": "\u001b[0m \u001b[90m 65 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Picture')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/testPicture.png/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 66 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Address')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/768 Gainsway Street Lawrenceville, GA 30043/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                                                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 67 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'State and City')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/NCR Delhi/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -404,8 +404,8 @@
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-12T03:26:55.624Z",
-              "duration": 3,
+              "startTime": "2021-11-23T23:42:57.483Z",
+              "duration": 2,
               "snippet": "\u001b[0m \u001b[90m 66 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'Address')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/768 Gainsway Street Lawrenceville, GA 30043/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 67 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//td[contains(text(),'State and City')]/following-sibling::td\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/NCR Delhi/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                                                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 68 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
@@ -416,12 +416,12 @@
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-12T03:26:55.627Z",
+              "startTime": "2021-11-23T23:42:57.485Z",
               "duration": 3,
               "steps": [
                 {
                   "title": "page.close",
-                  "startTime": "2021-11-12T03:26:55.627Z",
+                  "startTime": "2021-11-23T23:42:57.485Z",
                   "duration": 3,
                   "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m     test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
                   "steps": [],
