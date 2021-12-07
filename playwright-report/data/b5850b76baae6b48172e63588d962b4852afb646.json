@@ -8,176 +8,164 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/01-elements/elements.test.js",
-        "line": 14,
+        "line": 5,
         "column": 5
       },
-      "duration": 6305,
+      "duration": 5531,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/01-elements/elements.test.js:14",
+        "tests/demo-qa/01-elements/elements.test.js:5",
         "Test Elements on Demo QA site"
       ],
       "results": [
         {
-          "duration": 6305,
-          "startTime": "2021-11-23T23:42:00.723Z",
+          "duration": 5531,
+          "startTime": "2021-12-07T04:57:44.273Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:42:00.723Z",
-              "duration": 1984,
+              "startTime": "2021-12-07T04:57:44.273Z",
+              "duration": 1148,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:42:02.041Z",
-                  "duration": 666,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m     context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m     page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 7,
-                    "column": 26
-                  }
+                  "startTime": "2021-12-07T04:57:44.949Z",
+                  "duration": 472,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/text-box)",
-              "startTime": "2021-11-23T23:42:02.709Z",
-              "duration": 4108,
-              "snippet": "\u001b[0m \u001b[90m  15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  16 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/text-box\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  17 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:57:45.423Z",
+              "duration": 4142,
+              "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/text-box\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 16,
+                "line": 7,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//input[@id='userName'])",
-              "startTime": "2021-11-23T23:42:06.818Z",
-              "duration": 24,
-              "snippet": "\u001b[0m \u001b[90m  17 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  18 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='userName']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Diamond Farley'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  19 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:57:49.566Z",
+              "duration": 26,
+              "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='userName']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Diamond Farley'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  10 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 18,
+                "line": 9,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//input[@id='userEmail'])",
-              "startTime": "2021-11-23T23:42:06.842Z",
-              "duration": 9,
-              "snippet": "\u001b[0m \u001b[90m  19 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  20 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='userEmail']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'dfarley@demoqa.com'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  21 |\u001b[39m         \u001b[0m",
+              "startTime": "2021-12-07T04:57:49.593Z",
+              "duration": 11,
+              "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='userEmail']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'dfarley@demoqa.com'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m         \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 20,
+                "line": 11,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//textarea[@id='currentAddress'])",
-              "startTime": "2021-11-23T23:42:06.851Z",
+              "startTime": "2021-12-07T04:57:49.604Z",
               "duration": 8,
-              "snippet": "\u001b[0m \u001b[90m  21 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  22 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//textarea[@id='currentAddress']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'986 Golden Star Ave.Oxford, MS 38655'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  23 |\u001b[39m         \u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  12 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  13 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//textarea[@id='currentAddress']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'986 Golden Star Ave.Oxford, MS 38655'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  14 |\u001b[39m         \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 22,
+                "line": 13,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//textarea[@id='permanentAddress'])",
-              "startTime": "2021-11-23T23:42:06.859Z",
-              "duration": 8,
-              "snippet": "\u001b[0m \u001b[90m  23 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  24 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//textarea[@id='permanentAddress']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'90 E. St Margarets St.Springfield, PA 19064'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  25 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:57:49.613Z",
+              "duration": 7,
+              "snippet": "\u001b[0m \u001b[90m  14 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  15 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//textarea[@id='permanentAddress']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'90 E. St Margarets St.Springfield, PA 19064'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  16 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 24,
+                "line": 15,
                 "column": 20
               }
             },
             {
               "title": "page.click(//button[@id='submit'])",
-              "startTime": "2021-11-23T23:42:06.867Z",
-              "duration": 131,
-              "snippet": "\u001b[0m \u001b[90m  25 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='submit']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  27 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:57:49.621Z",
+              "duration": 150,
+              "snippet": "\u001b[0m \u001b[90m  16 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  17 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='submit']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  18 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 26,
+                "line": 17,
                 "column": 20
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:42:07.003Z",
-              "duration": 10,
-              "snippet": "\u001b[0m \u001b[90m  27 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  28 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='name']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Diamond Farley/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  29 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='email']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/dfarley@demoqa.com/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:57:49.774Z",
+              "duration": 9,
+              "snippet": "\u001b[0m \u001b[90m  18 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  19 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='name']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Diamond Farley/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  20 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='email']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/dfarley@demoqa.com/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 28,
+                "line": 19,
                 "column": 55
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:42:07.013Z",
+              "startTime": "2021-12-07T04:57:49.784Z",
               "duration": 5,
-              "snippet": "\u001b[0m \u001b[90m  28 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='name']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Diamond Farley/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  29 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='email']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/dfarley@demoqa.com/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                       ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  30 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='currentAddress']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/986 Golden Star Ave.Oxford, MS 38655/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  19 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='name']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Diamond Farley/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  20 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='email']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/dfarley@demoqa.com/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                       ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  21 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='currentAddress']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/986 Golden Star Ave.Oxford, MS 38655/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 29,
+                "line": 20,
                 "column": 56
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:42:07.018Z",
-              "duration": 3,
-              "snippet": "\u001b[0m \u001b[90m  29 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='email']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/dfarley@demoqa.com/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  30 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='currentAddress']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/986 Golden Star Ave.Oxford, MS 38655/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  31 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='permanentAddress']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/90 E. St Margarets St.Springfield, PA 19064/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:57:49.790Z",
+              "duration": 4,
+              "snippet": "\u001b[0m \u001b[90m  20 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='email']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/dfarley@demoqa.com/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  21 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='currentAddress']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/986 Golden Star Ave.Oxford, MS 38655/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  22 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='permanentAddress']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/90 E. St Margarets St.Springfield, PA 19064/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 30,
+                "line": 21,
                 "column": 65
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:42:07.022Z",
-              "duration": 3,
-              "snippet": "\u001b[0m \u001b[90m  30 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='currentAddress']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/986 Golden Star Ave.Oxford, MS 38655/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  31 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='permanentAddress']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/90 E. St Margarets St.Springfield, PA 19064/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  32 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:57:49.794Z",
+              "duration": 6,
+              "snippet": "\u001b[0m \u001b[90m  21 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='currentAddress']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/986 Golden Star Ave.Oxford, MS 38655/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  22 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='permanentAddress']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/90 E. St Margarets St.Springfield, PA 19064/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  23 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 31,
+                "line": 22,
                 "column": 67
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:42:07.025Z",
-              "duration": 3,
+              "startTime": "2021-12-07T04:57:49.800Z",
+              "duration": 4,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:42:07.026Z",
-                  "duration": 2,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m   test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 11,
-                    "column": 16
-                  }
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:57:49.801Z",
+                  "duration": 3,
+                  "steps": []
                 }
               ]
             }
@@ -195,104 +183,92 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/01-elements/elements.test.js",
-        "line": 34,
+        "line": 25,
         "column": 5
       },
-      "duration": 6649,
+      "duration": 4225,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/01-elements/elements.test.js:34",
+        "tests/demo-qa/01-elements/elements.test.js:25",
         "Test Elements on Demo QA site"
       ],
       "results": [
         {
-          "duration": 6649,
-          "startTime": "2021-11-23T23:42:07.028Z",
+          "duration": 4225,
+          "startTime": "2021-12-07T04:57:49.804Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:42:07.029Z",
-              "duration": 1794,
+              "startTime": "2021-12-07T04:57:49.805Z",
+              "duration": 145,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:42:08.143Z",
-                  "duration": 680,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m     context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m     page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 7,
-                    "column": 26
-                  }
+                  "startTime": "2021-12-07T04:57:49.808Z",
+                  "duration": 142,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/checkbox)",
-              "startTime": "2021-11-23T23:42:08.823Z",
-              "duration": 4740,
-              "snippet": "\u001b[0m \u001b[90m  35 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  36 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/checkbox\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  37 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:57:49.950Z",
+              "duration": 3879,
+              "snippet": "\u001b[0m \u001b[90m  26 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  27 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/checkbox\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  28 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 36,
+                "line": 27,
                 "column": 20
               }
             },
             {
               "title": "page.click(//button[contains(@class,'option-expand-all')])",
-              "startTime": "2021-11-23T23:42:13.563Z",
-              "duration": 65,
-              "snippet": "\u001b[0m \u001b[90m  37 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  38 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[contains(@class,'option-expand-all')]\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  39 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:57:53.830Z",
+              "duration": 58,
+              "snippet": "\u001b[0m \u001b[90m  28 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  29 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[contains(@class,'option-expand-all')]\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  30 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 38,
+                "line": 29,
                 "column": 20
               }
             },
             {
               "title": "page.click(//label[@for='tree-node-private'])",
-              "startTime": "2021-11-23T23:42:13.628Z",
-              "duration": 36,
-              "snippet": "\u001b[0m \u001b[90m  39 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  40 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//label[@for='tree-node-private']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:57:53.888Z",
+              "duration": 127,
+              "snippet": "\u001b[0m \u001b[90m  30 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  31 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//label[@for='tree-node-private']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  32 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 40,
+                "line": 31,
                 "column": 20
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:42:13.664Z",
+              "startTime": "2021-12-07T04:57:54.015Z",
               "duration": 6,
-              "snippet": "\u001b[0m \u001b[90m  41 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  42 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//div[@id='result']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/private/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  43 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  32 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  33 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//div[@id='result']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/private/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  34 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 42,
+                "line": 33,
                 "column": 59
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:42:13.670Z",
+              "startTime": "2021-12-07T04:57:54.021Z",
               "duration": 8,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:42:13.671Z",
-                  "duration": 7,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m   test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 11,
-                    "column": 16
-                  }
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:57:54.021Z",
+                  "duration": 8,
+                  "steps": []
                 }
               ]
             }
@@ -310,92 +286,80 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/01-elements/elements.test.js",
-        "line": 45,
+        "line": 36,
         "column": 5
       },
-      "duration": 5912,
+      "duration": 4051,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/01-elements/elements.test.js:45",
+        "tests/demo-qa/01-elements/elements.test.js:36",
         "Test Elements on Demo QA site"
       ],
       "results": [
         {
-          "duration": 5912,
-          "startTime": "2021-11-23T23:42:13.678Z",
+          "duration": 4051,
+          "startTime": "2021-12-07T04:57:54.030Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:42:13.678Z",
-              "duration": 1788,
+              "startTime": "2021-12-07T04:57:54.030Z",
+              "duration": 175,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:42:14.790Z",
-                  "duration": 676,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m     context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m     page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 7,
-                    "column": 26
-                  }
+                  "startTime": "2021-12-07T04:57:54.033Z",
+                  "duration": 172,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/radio-button)",
-              "startTime": "2021-11-23T23:42:15.467Z",
-              "duration": 4085,
-              "snippet": "\u001b[0m \u001b[90m  46 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  47 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/radio-button\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  48 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:57:54.206Z",
+              "duration": 3834,
+              "snippet": "\u001b[0m \u001b[90m  37 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  38 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/radio-button\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  39 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 47,
+                "line": 38,
                 "column": 20
               }
             },
             {
               "title": "page.check(text=Impressive)",
-              "startTime": "2021-11-23T23:42:19.553Z",
-              "duration": 29,
-              "snippet": "\u001b[0m \u001b[90m  48 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  49 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mcheck(\u001b[32m\"text=Impressive\"\u001b[39m\u001b[33m,\u001b[39m {force\u001b[33m:\u001b[39m\u001b[36mtrue\u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  50 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:57:58.041Z",
+              "duration": 31,
+              "snippet": "\u001b[0m \u001b[90m  39 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  40 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mcheck(\u001b[32m\"text=Impressive\"\u001b[39m\u001b[33m,\u001b[39m {force\u001b[33m:\u001b[39m\u001b[36mtrue\u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 49,
+                "line": 40,
                 "column": 20
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:42:19.583Z",
+              "startTime": "2021-12-07T04:57:58.072Z",
               "duration": 4,
-              "snippet": "\u001b[0m \u001b[90m  50 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  51 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//span[@class='text-success']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Impressive/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  52 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  41 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  42 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//span[@class='text-success']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Impressive/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  43 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 51,
+                "line": 42,
                 "column": 69
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:42:19.587Z",
-              "duration": 2,
+              "startTime": "2021-12-07T04:57:58.076Z",
+              "duration": 4,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:42:19.587Z",
-                  "duration": 2,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m   test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 11,
-                    "column": 16
-                  }
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:57:58.076Z",
+                  "duration": 4,
+                  "steps": []
                 }
               ]
             }
@@ -413,296 +377,284 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/01-elements/elements.test.js",
-        "line": 54,
+        "line": 45,
         "column": 5
       },
-      "duration": 6801,
+      "duration": 6272,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/01-elements/elements.test.js:54",
+        "tests/demo-qa/01-elements/elements.test.js:45",
         "Test Elements on Demo QA site"
       ],
       "results": [
         {
-          "duration": 6801,
-          "startTime": "2021-11-23T23:42:19.589Z",
+          "duration": 6272,
+          "startTime": "2021-12-07T04:57:58.080Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:42:19.590Z",
-              "duration": 1942,
+              "startTime": "2021-12-07T04:57:58.081Z",
+              "duration": 166,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:42:20.842Z",
-                  "duration": 690,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m     context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m     page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 7,
-                    "column": 26
-                  }
+                  "startTime": "2021-12-07T04:57:58.084Z",
+                  "duration": 163,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/webtables)",
-              "startTime": "2021-11-23T23:42:21.532Z",
-              "duration": 4371,
-              "snippet": "\u001b[0m \u001b[90m  54 |\u001b[39m     test(\u001b[32m'Should be able to read from Table'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  55 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/webtables\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  56 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:57:58.247Z",
+              "duration": 5612,
+              "snippet": "\u001b[0m \u001b[90m  45 |\u001b[39m     test(\u001b[32m'Should be able to read from Table'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  46 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/webtables\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  47 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 55,
+                "line": 46,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//input[@id='searchBox'])",
-              "startTime": "2021-11-23T23:42:25.903Z",
-              "duration": 35,
-              "snippet": "\u001b[0m \u001b[90m  56 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  57 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='searchBox']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'2000'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  58 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:03.859Z",
+              "duration": 36,
+              "snippet": "\u001b[0m \u001b[90m  47 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  48 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='searchBox']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'2000'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  49 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 57,
+                "line": 48,
                 "column": 20
               }
             },
             {
               "title": "page.$$eval(//div[@role='gridcell'])",
-              "startTime": "2021-11-23T23:42:25.939Z",
-              "duration": 8,
-              "snippet": "\u001b[0m \u001b[90m  58 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  59 |\u001b[39m         \u001b[36mconst\u001b[39m tableData \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$$eval(\u001b[32m\"//div[@role='gridcell']\"\u001b[39m\u001b[33m,\u001b[39m (rows) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  60 |\u001b[39m             \u001b[36mreturn\u001b[39m \u001b[33mArray\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(rows)\u001b[33m.\u001b[39mmap(row \u001b[33m=>\u001b[39m row\u001b[33m.\u001b[39mtextContent)\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:03.895Z",
+              "duration": 10,
+              "snippet": "\u001b[0m \u001b[90m  49 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  50 |\u001b[39m         \u001b[36mconst\u001b[39m tableData \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$$eval(\u001b[32m\"//div[@role='gridcell']\"\u001b[39m\u001b[33m,\u001b[39m (rows) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  51 |\u001b[39m             \u001b[36mreturn\u001b[39m \u001b[33mArray\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(rows)\u001b[33m.\u001b[39mmap(row \u001b[33m=>\u001b[39m row\u001b[33m.\u001b[39mtextContent)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 59,
+                "line": 50,
                 "column": 38
               }
             },
             {
               "title": "expect.toBeTruthy",
-              "startTime": "2021-11-23T23:42:25.947Z",
-              "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  62 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  63 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"Alden\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  64 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"12000\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:03.905Z",
+              "duration": 1,
+              "snippet": "\u001b[0m \u001b[90m  53 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  54 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"Alden\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  55 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"12000\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 63,
+                "line": 54,
                 "column": 51
               }
             },
             {
               "title": "expect.toBeTruthy",
-              "startTime": "2021-11-23T23:42:25.948Z",
+              "startTime": "2021-12-07T04:58:03.906Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  63 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"Alden\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  64 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"12000\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  65 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"Kierra\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  54 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"Alden\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  55 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"12000\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  56 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"Kierra\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 64,
+                "line": 55,
                 "column": 51
               }
             },
             {
               "title": "expect.toBeTruthy",
-              "startTime": "2021-11-23T23:42:25.948Z",
+              "startTime": "2021-12-07T04:58:03.906Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  64 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"12000\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  65 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"Kierra\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  66 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"2000\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  55 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"12000\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  56 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"Kierra\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  57 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"2000\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 65,
+                "line": 56,
                 "column": 52
               }
             },
             {
               "title": "expect.toBeTruthy",
-              "startTime": "2021-11-23T23:42:25.949Z",
+              "startTime": "2021-12-07T04:58:03.907Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  65 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"Kierra\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  66 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"2000\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  67 |\u001b[39m     \u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  56 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"Kierra\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  57 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableData\u001b[33m.\u001b[39mincludes(\u001b[32m\"2000\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  58 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 66,
+                "line": 57,
                 "column": 50
               }
             },
             {
               "title": "page.click(//button[@id='addNewRecordButton'])",
-              "startTime": "2021-11-23T23:42:25.949Z",
-              "duration": 66,
-              "snippet": "\u001b[0m \u001b[90m  67 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  68 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='addNewRecordButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  69 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:03.907Z",
+              "duration": 70,
+              "snippet": "\u001b[0m \u001b[90m  58 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  59 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='addNewRecordButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  60 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 68,
+                "line": 59,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//input[@id='firstName'])",
-              "startTime": "2021-11-23T23:42:26.015Z",
-              "duration": 10,
-              "snippet": "\u001b[0m \u001b[90m  69 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  70 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='firstName']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Diamond'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  71 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:03.977Z",
+              "duration": 18,
+              "snippet": "\u001b[0m \u001b[90m  60 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  61 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='firstName']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Diamond'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  62 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 70,
+                "line": 61,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//input[@id='lastName'])",
-              "startTime": "2021-11-23T23:42:26.025Z",
+              "startTime": "2021-12-07T04:58:03.995Z",
               "duration": 11,
-              "snippet": "\u001b[0m \u001b[90m  71 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  72 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='lastName']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Farley'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  73 |\u001b[39m     \u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  62 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  63 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='lastName']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Farley'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  64 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 72,
+                "line": 63,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//input[@id='userEmail'])",
-              "startTime": "2021-11-23T23:42:26.036Z",
-              "duration": 8,
-              "snippet": "\u001b[0m \u001b[90m  73 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  74 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='userEmail']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'dfarley@demoqa.com'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  75 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:04.007Z",
+              "duration": 12,
+              "snippet": "\u001b[0m \u001b[90m  64 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  65 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='userEmail']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'dfarley@demoqa.com'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  66 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 74,
+                "line": 65,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//input[@id='age'])",
-              "startTime": "2021-11-23T23:42:26.044Z",
-              "duration": 12,
-              "snippet": "\u001b[0m \u001b[90m  75 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  76 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='age']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'45'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  77 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:04.019Z",
+              "duration": 8,
+              "snippet": "\u001b[0m \u001b[90m  66 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  67 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='age']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'45'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  68 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 76,
+                "line": 67,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//input[@id='salary'])",
-              "startTime": "2021-11-23T23:42:26.057Z",
+              "startTime": "2021-12-07T04:58:04.027Z",
               "duration": 10,
-              "snippet": "\u001b[0m \u001b[90m  77 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  78 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='salary']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'2000'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  79 |\u001b[39m     \u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  68 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  69 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='salary']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'2000'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  70 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 78,
+                "line": 69,
                 "column": 20
               }
             },
             {
               "title": "page.fill(//input[@id='department'])",
-              "startTime": "2021-11-23T23:42:26.067Z",
-              "duration": 8,
-              "snippet": "\u001b[0m \u001b[90m  79 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  80 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='department']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'IT'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  81 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:04.037Z",
+              "duration": 7,
+              "snippet": "\u001b[0m \u001b[90m  70 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  71 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='department']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'IT'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  72 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 80,
+                "line": 71,
                 "column": 20
               }
             },
             {
               "title": "page.click(//button[@id='submit'])",
-              "startTime": "2021-11-23T23:42:26.075Z",
-              "duration": 279,
-              "snippet": "\u001b[0m \u001b[90m  81 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  82 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='submit']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  83 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:04.045Z",
+              "duration": 275,
+              "snippet": "\u001b[0m \u001b[90m  72 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  73 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='submit']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  74 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 82,
+                "line": 73,
                 "column": 20
               }
             },
             {
               "title": "page.$$eval(//div[@role='gridcell'])",
-              "startTime": "2021-11-23T23:42:26.355Z",
+              "startTime": "2021-12-07T04:58:04.321Z",
               "duration": 3,
-              "snippet": "\u001b[0m \u001b[90m  83 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  84 |\u001b[39m         \u001b[36mconst\u001b[39m tableDataAdded \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$$eval(\u001b[32m\"//div[@role='gridcell']\"\u001b[39m\u001b[33m,\u001b[39m (rows) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  85 |\u001b[39m             \u001b[36mreturn\u001b[39m \u001b[33mArray\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(rows)\u001b[33m.\u001b[39mmap(row \u001b[33m=>\u001b[39m row\u001b[33m.\u001b[39mtextContent)\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  74 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  75 |\u001b[39m         \u001b[36mconst\u001b[39m tableDataAdded \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$$eval(\u001b[32m\"//div[@role='gridcell']\"\u001b[39m\u001b[33m,\u001b[39m (rows) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  76 |\u001b[39m             \u001b[36mreturn\u001b[39m \u001b[33mArray\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(rows)\u001b[33m.\u001b[39mmap(row \u001b[33m=>\u001b[39m row\u001b[33m.\u001b[39mtextContent)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 84,
+                "line": 75,
                 "column": 43
               }
             },
             {
               "title": "expect.toBeTruthy",
-              "startTime": "2021-11-23T23:42:26.358Z",
+              "startTime": "2021-12-07T04:58:04.324Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  87 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  88 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableDataAdded\u001b[33m.\u001b[39mincludes(\u001b[32m\"Farley\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  89 |\u001b[39m     \u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  78 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  79 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableDataAdded\u001b[33m.\u001b[39mincludes(\u001b[32m\"Farley\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  80 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 88,
+                "line": 79,
                 "column": 57
               }
             },
             {
               "title": "page.fill(//input[@id='searchBox'])",
-              "startTime": "2021-11-23T23:42:26.358Z",
-              "duration": 21,
-              "snippet": "\u001b[0m \u001b[90m  89 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  90 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='searchBox']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'45'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  91 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:04.325Z",
+              "duration": 19,
+              "snippet": "\u001b[0m \u001b[90m  80 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  81 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m\"//input[@id='searchBox']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'45'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  82 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 90,
+                "line": 81,
                 "column": 20
               }
             },
             {
               "title": "page.$$eval(//div[@role='gridcell'])",
-              "startTime": "2021-11-23T23:42:26.379Z",
-              "duration": 6,
-              "snippet": "\u001b[0m \u001b[90m  91 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  92 |\u001b[39m         \u001b[36mconst\u001b[39m tableDataUpdated \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$$eval(\u001b[32m\"//div[@role='gridcell']\"\u001b[39m\u001b[33m,\u001b[39m (rows) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  93 |\u001b[39m             \u001b[36mreturn\u001b[39m \u001b[33mArray\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(rows)\u001b[33m.\u001b[39mmap(row \u001b[33m=>\u001b[39m row\u001b[33m.\u001b[39mtextContent)\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:04.344Z",
+              "duration": 3,
+              "snippet": "\u001b[0m \u001b[90m  82 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  83 |\u001b[39m         \u001b[36mconst\u001b[39m tableDataUpdated \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$$eval(\u001b[32m\"//div[@role='gridcell']\"\u001b[39m\u001b[33m,\u001b[39m (rows) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  84 |\u001b[39m             \u001b[36mreturn\u001b[39m \u001b[33mArray\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(rows)\u001b[33m.\u001b[39mmap(row \u001b[33m=>\u001b[39m row\u001b[33m.\u001b[39mtextContent)\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 92,
+                "line": 83,
                 "column": 45
               }
             },
             {
               "title": "expect.toBeFalsy",
-              "startTime": "2021-11-23T23:42:26.386Z",
+              "startTime": "2021-12-07T04:58:04.347Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  96 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableDataUpdated\u001b[33m.\u001b[39mincludes(\u001b[32m\"Kierra\"\u001b[39m))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  97 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  86 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  87 |\u001b[39m         \u001b[36mawait\u001b[39m expect(tableDataUpdated\u001b[33m.\u001b[39mincludes(\u001b[32m\"Kierra\"\u001b[39m))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  88 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 96,
+                "line": 87,
                 "column": 59
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:42:26.386Z",
+              "startTime": "2021-12-07T04:58:04.347Z",
               "duration": 5,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:42:26.387Z",
-                  "duration": 4,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m   test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 11,
-                    "column": 16
-                  }
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:58:04.347Z",
+                  "duration": 5,
+                  "steps": []
                 }
               ]
             }
@@ -720,140 +672,128 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/01-elements/elements.test.js",
-        "line": 99,
+        "line": 90,
         "column": 5
       },
-      "duration": 6201,
+      "duration": 4144,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/01-elements/elements.test.js:99",
+        "tests/demo-qa/01-elements/elements.test.js:90",
         "Test Elements on Demo QA site"
       ],
       "results": [
         {
-          "duration": 6201,
-          "startTime": "2021-11-23T23:42:26.391Z",
+          "duration": 4144,
+          "startTime": "2021-12-07T04:58:04.352Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:42:26.391Z",
-              "duration": 1807,
+              "startTime": "2021-12-07T04:58:04.353Z",
+              "duration": 118,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:42:27.497Z",
-                  "duration": 701,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m     context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m     page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 7,
-                    "column": 26
-                  }
+                  "startTime": "2021-12-07T04:58:04.357Z",
+                  "duration": 114,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/buttons)",
-              "startTime": "2021-11-23T23:42:28.199Z",
-              "duration": 4251,
-              "snippet": "\u001b[0m \u001b[90m 100 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 101 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/buttons\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 102 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:04.472Z",
+              "duration": 3843,
+              "snippet": "\u001b[0m \u001b[90m  91 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  92 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/buttons\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  93 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 101,
+                "line": 92,
                 "column": 20
               }
             },
             {
               "title": "page.dblclick(//button[@id='doubleClickBtn'])",
-              "startTime": "2021-11-23T23:42:32.451Z",
-              "duration": 41,
-              "snippet": "\u001b[0m \u001b[90m 102 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 103 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mdblclick(\u001b[32m\"//button[@id='doubleClickBtn']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 104 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:08.315Z",
+              "duration": 60,
+              "snippet": "\u001b[0m \u001b[90m  93 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  94 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mdblclick(\u001b[32m\"//button[@id='doubleClickBtn']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 103,
+                "line": 94,
                 "column": 20
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:42:32.492Z",
-              "duration": 5,
-              "snippet": "\u001b[0m \u001b[90m 104 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 105 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='doubleClickMessage']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You have done a double click/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 106 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:08.376Z",
+              "duration": 6,
+              "snippet": "\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  96 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='doubleClickMessage']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You have done a double click/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  97 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 105,
+                "line": 96,
                 "column": 69
               }
             },
             {
               "title": "page.click(//button[@id='rightClickBtn'])",
-              "startTime": "2021-11-23T23:42:32.497Z",
-              "duration": 41,
-              "snippet": "\u001b[0m \u001b[90m 106 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 107 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='rightClickBtn']\"\u001b[39m\u001b[33m,\u001b[39m { button\u001b[33m:\u001b[39m \u001b[32m'right'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 108 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:08.383Z",
+              "duration": 53,
+              "snippet": "\u001b[0m \u001b[90m  97 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  98 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='rightClickBtn']\"\u001b[39m\u001b[33m,\u001b[39m { button\u001b[33m:\u001b[39m \u001b[32m'right'\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  99 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 107,
+                "line": 98,
                 "column": 20
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:42:32.539Z",
-              "duration": 3,
-              "snippet": "\u001b[0m \u001b[90m 108 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 109 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='rightClickMessage']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You have done a right click/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 110 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:08.437Z",
+              "duration": 6,
+              "snippet": "\u001b[0m \u001b[90m  99 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 100 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='rightClickMessage']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You have done a right click/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 101 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 109,
+                "line": 100,
                 "column": 68
               }
             },
             {
               "title": "page.click(//button[@type='button' and (text()='Click Me')])",
-              "startTime": "2021-11-23T23:42:32.543Z",
-              "duration": 41,
-              "snippet": "\u001b[0m \u001b[90m 110 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 111 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@type='button' and (text()='Click Me')]\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 112 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:08.443Z",
+              "duration": 46,
+              "snippet": "\u001b[0m \u001b[90m 101 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 102 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@type='button' and (text()='Click Me')]\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 103 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 111,
+                "line": 102,
                 "column": 20
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:42:32.585Z",
-              "duration": 4,
-              "snippet": "\u001b[0m \u001b[90m 112 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 113 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='dynamicClickMessage']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You have done a dynamic click/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 114 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:08.489Z",
+              "duration": 3,
+              "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 104 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='dynamicClickMessage']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You have done a dynamic click/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 105 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 113,
+                "line": 104,
                 "column": 70
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:42:32.589Z",
-              "duration": 2,
+              "startTime": "2021-12-07T04:58:08.492Z",
+              "duration": 4,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:42:32.589Z",
-                  "duration": 2,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m   test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 11,
-                    "column": 16
-                  }
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:58:08.493Z",
+                  "duration": 3,
+                  "steps": []
                 }
               ]
             }
@@ -871,45 +811,56 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/01-elements/elements.test.js",
-        "line": 116,
+        "line": 107,
         "column": 5
       },
-      "duration": 12664,
+      "duration": 10166,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/01-elements/elements.test.js:116",
+        "tests/demo-qa/01-elements/elements.test.js:107",
         "Test Elements on Demo QA site"
       ],
       "results": [
         {
-          "duration": 12664,
-          "startTime": "2021-11-23T23:42:32.592Z",
+          "duration": 10166,
+          "startTime": "2021-12-07T04:58:08.496Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:42:32.592Z",
-              "duration": 1987,
-              "steps": [
-                {
-                  "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:42:33.902Z",
-                  "duration": 677,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m     context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m     page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 7,
-                    "column": 26
-                  }
-                }
-              ]
+              "startTime": "2021-12-07T04:58:08.496Z",
+              "duration": 0,
+              "steps": []
+            },
+            {
+              "title": "browserContext.newPage",
+              "startTime": "2021-12-07T04:58:09.270Z",
+              "duration": 482,
+              "snippet": "\u001b[0m \u001b[90m 110 |\u001b[39m         context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 111 |\u001b[39m         page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 112 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/demo-qa/01-elements/elements.test.js",
+                "line": 111,
+                "column": 30
+              }
             },
             {
               "title": "page.goto(https://demoqa.com/links)",
-              "startTime": "2021-11-23T23:42:34.580Z",
-              "duration": 4190,
-              "snippet": "\u001b[0m \u001b[90m 117 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 118 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/links\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 119 |\u001b[39m         \u001b[0m",
+              "startTime": "2021-12-07T04:58:09.752Z",
+              "duration": 3869,
+              "snippet": "\u001b[0m \u001b[90m 112 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 113 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/links\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 114 |\u001b[39m         \u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/demo-qa/01-elements/elements.test.js",
+                "line": 113,
+                "column": 20
+              }
+            },
+            {
+              "title": "page.route",
+              "startTime": "2021-12-07T04:58:13.622Z",
+              "duration": 1,
+              "snippet": "\u001b[0m \u001b[90m 117 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 118 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mroute(\u001b[32m'**/created'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m route \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 119 |\u001b[39m             \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mrequest\u001b[33m.\u001b[39mfetch(route\u001b[33m.\u001b[39mrequest())\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
@@ -918,323 +869,310 @@
               }
             },
             {
-              "title": "page.route",
-              "startTime": "2021-11-23T23:42:38.771Z",
-              "duration": 1,
-              "snippet": "\u001b[0m \u001b[90m 122 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 123 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mroute(\u001b[32m'**/created'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m route \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 124 |\u001b[39m             \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mrequest\u001b[33m.\u001b[39mfetch(route\u001b[33m.\u001b[39mrequest())\u001b[33m;\u001b[39m\u001b[0m",
-              "steps": [],
-              "location": {
-                "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 123,
-                "column": 20
-              }
-            },
-            {
               "title": "page.click(//a[@id='created'])",
-              "startTime": "2021-11-23T23:42:38.772Z",
-              "duration": 71,
-              "snippet": "\u001b[0m \u001b[90m 129 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 130 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='created']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 131 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:13.623Z",
+              "duration": 72,
+              "snippet": "\u001b[0m \u001b[90m 124 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 125 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='created']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 126 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 130,
+                "line": 125,
                 "column": 20
               }
             },
             {
               "title": "page.click(//a[@id='no-content'])",
-              "startTime": "2021-11-23T23:42:38.843Z",
+              "startTime": "2021-12-07T04:58:13.696Z",
               "duration": 29,
-              "snippet": "\u001b[0m \u001b[90m 138 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 139 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='no-content']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 140 |\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m 133 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 134 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='no-content']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 135 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 139,
+                "line": 134,
                 "column": 20
               }
             },
             {
               "title": "expect.toBe",
-              "startTime": "2021-11-23T23:42:39.399Z",
+              "startTime": "2021-12-07T04:58:14.244Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 126 |\u001b[39m             \u001b[0m\n\u001b[0m \u001b[90m 127 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 128 |\u001b[39m             routeCallbackCN()\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m 121 |\u001b[39m             \u001b[0m\n\u001b[0m \u001b[90m 122 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 123 |\u001b[39m             routeCallbackCN()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 127,
+                "line": 122,
                 "column": 28
               }
             },
             {
               "title": "page.click(//a[@id='moved'])",
-              "startTime": "2021-11-23T23:42:39.399Z",
-              "duration": 28,
-              "snippet": "\u001b[0m \u001b[90m 152 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 153 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='moved']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 154 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:14.245Z",
+              "duration": 27,
+              "snippet": "\u001b[0m \u001b[90m 147 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 148 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='moved']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 149 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 153,
+                "line": 148,
                 "column": 20
-              }
-            },
-            {
-              "title": "expect.toBe",
-              "startTime": "2021-11-23T23:42:39.414Z",
-              "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 135 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 136 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m204\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 137 |\u001b[39m             routeCallbackCN()\u001b[33m;\u001b[39m\u001b[0m",
-              "steps": [],
-              "location": {
-                "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 136,
-                "column": 28
               }
             },
             {
               "title": "page.click(//a[@id='bad-request'])",
-              "startTime": "2021-11-23T23:42:39.427Z",
-              "duration": 70,
-              "snippet": "\u001b[0m \u001b[90m 161 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 162 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='bad-request']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 163 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:14.272Z",
+              "duration": 35,
+              "snippet": "\u001b[0m \u001b[90m 156 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 157 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='bad-request']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 158 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 162,
+                "line": 157,
                 "column": 20
               }
             },
             {
               "title": "expect.toBe",
-              "startTime": "2021-11-23T23:42:39.971Z",
+              "startTime": "2021-12-07T04:58:14.281Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 149 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 150 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m301\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 151 |\u001b[39m             routeCallbackMB()\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 131 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m204\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 132 |\u001b[39m             routeCallbackCN()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 150,
+                "line": 131,
+                "column": 28
+              }
+            },
+            {
+              "title": "expect.toBe",
+              "startTime": "2021-12-07T04:58:14.827Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 144 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 145 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m301\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 146 |\u001b[39m             routeCallbackMB()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/demo-qa/01-elements/elements.test.js",
+                "line": 145,
                 "column": 28
               }
             },
             {
               "title": "page.click(//a[@id='unauthorized'])",
-              "startTime": "2021-11-23T23:42:39.971Z",
-              "duration": 18,
-              "snippet": "\u001b[0m \u001b[90m 175 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 176 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='unauthorized']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 177 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:14.828Z",
+              "duration": 30,
+              "snippet": "\u001b[0m \u001b[90m 170 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 171 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='unauthorized']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 172 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 176,
-                "column": 20
-              }
-            },
-            {
-              "title": "page.click(//a[@id='forbidden'])",
-              "startTime": "2021-11-23T23:42:39.989Z",
-              "duration": 33,
-              "snippet": "\u001b[0m \u001b[90m 184 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 185 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='forbidden']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 186 |\u001b[39m\u001b[0m",
-              "steps": [],
-              "location": {
-                "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 185,
+                "line": 171,
                 "column": 20
               }
             },
             {
               "title": "expect.toBe",
-              "startTime": "2021-11-23T23:42:40.038Z",
+              "startTime": "2021-12-07T04:58:14.848Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 158 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 159 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m400\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 160 |\u001b[39m             routeCallbackMB()\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m 153 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 154 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m400\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 155 |\u001b[39m             routeCallbackMB()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 159,
+                "line": 154,
                 "column": 28
               }
             },
             {
-              "title": "expect.toBe",
-              "startTime": "2021-11-23T23:42:40.530Z",
-              "duration": 1,
-              "snippet": "\u001b[0m \u001b[90m 172 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 173 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m401\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 174 |\u001b[39m             routeCallbackUF()\u001b[33m;\u001b[39m\u001b[0m",
+              "title": "page.click(//a[@id='forbidden'])",
+              "startTime": "2021-12-07T04:58:14.858Z",
+              "duration": 32,
+              "snippet": "\u001b[0m \u001b[90m 179 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 180 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='forbidden']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 181 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 173,
+                "line": 180,
+                "column": 20
+              }
+            },
+            {
+              "title": "expect.toBe",
+              "startTime": "2021-12-07T04:58:15.414Z",
+              "duration": 0,
+              "snippet": "\u001b[0m \u001b[90m 167 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 168 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m401\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 169 |\u001b[39m             routeCallbackUF()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/demo-qa/01-elements/elements.test.js",
+                "line": 168,
                 "column": 28
               }
             },
             {
               "title": "page.click(//a[@id='invalid-url'])",
-              "startTime": "2021-11-23T23:42:40.531Z",
-              "duration": 100,
-              "snippet": "\u001b[0m \u001b[90m 198 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 199 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='invalid-url']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 200 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:15.414Z",
+              "duration": 27,
+              "snippet": "\u001b[0m \u001b[90m 193 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 194 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='invalid-url']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 195 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 199,
+                "line": 194,
                 "column": 20
               }
             },
             {
               "title": "expect.toBe",
-              "startTime": "2021-11-23T23:42:40.577Z",
+              "startTime": "2021-12-07T04:58:15.430Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 181 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 182 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 183 |\u001b[39m             routeCallbackUF()\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m 176 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 177 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 178 |\u001b[39m             routeCallbackUF()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 182,
+                "line": 177,
                 "column": 28
               }
             },
             {
               "title": "expect.toBe",
-              "startTime": "2021-11-23T23:42:41.178Z",
+              "startTime": "2021-12-07T04:58:15.997Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 195 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 196 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m404\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 197 |\u001b[39m             routeCallbackI()\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m 190 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 191 |\u001b[39m             expect(status)\u001b[33m.\u001b[39mtoBe(\u001b[35m404\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 192 |\u001b[39m             routeCallbackI()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 196,
+                "line": 191,
                 "column": 28
               }
             },
             {
               "title": "browserContext.waitForEvent",
-              "startTime": "2021-11-23T23:42:41.179Z",
-              "duration": 423,
-              "snippet": "\u001b[0m \u001b[90m 202 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 203 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='simpleLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 204 |\u001b[39m         \u001b[36mawait\u001b[39m newPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:15.997Z",
+              "duration": 253,
+              "snippet": "\u001b[0m \u001b[90m 197 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 198 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='simpleLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 199 |\u001b[39m         \u001b[36mawait\u001b[39m newPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 203,
+                "line": 198,
                 "column": 55
               }
             },
             {
               "title": "page.click(//a[@id='simpleLink'])",
-              "startTime": "2021-11-23T23:42:41.179Z",
-              "duration": 28,
-              "snippet": "\u001b[0m \u001b[90m 202 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 203 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='simpleLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 204 |\u001b[39m         \u001b[36mawait\u001b[39m newPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:15.998Z",
+              "duration": 25,
+              "snippet": "\u001b[0m \u001b[90m 197 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 198 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='simpleLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 199 |\u001b[39m         \u001b[36mawait\u001b[39m newPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 203,
+                "line": 198,
                 "column": 83
               }
             },
             {
               "title": "page.waitForLoadState",
-              "startTime": "2021-11-23T23:42:41.602Z",
-              "duration": 2486,
-              "snippet": "\u001b[0m \u001b[90m 203 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='simpleLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 204 |\u001b[39m         \u001b[36mawait\u001b[39m newPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 205 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:16.250Z",
+              "duration": 1492,
+              "snippet": "\u001b[0m \u001b[90m 198 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='simpleLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 199 |\u001b[39m         \u001b[36mawait\u001b[39m newPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                      ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 200 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 204,
+                "line": 199,
                 "column": 23
               }
             },
             {
               "title": "expect.toHaveURL",
-              "startTime": "2021-11-23T23:42:44.088Z",
-              "duration": 17,
-              "snippet": "\u001b[0m \u001b[90m 205 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 206 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newPage)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://demoqa.com/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                              ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 207 |\u001b[39m         expect(newPage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"links\"\u001b[39m))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:17.743Z",
+              "duration": 16,
+              "snippet": "\u001b[0m \u001b[90m 200 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 201 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newPage)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://demoqa.com/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                              ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 202 |\u001b[39m         expect(newPage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"links\"\u001b[39m))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 206,
+                "line": 201,
                 "column": 31
               }
             },
             {
               "title": "expect.toBeFalsy",
-              "startTime": "2021-11-23T23:42:44.105Z",
+              "startTime": "2021-12-07T04:58:17.760Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 206 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newPage)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://demoqa.com/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 207 |\u001b[39m         expect(newPage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"links\"\u001b[39m))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 208 |\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m 201 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newPage)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://demoqa.com/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 202 |\u001b[39m         expect(newPage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"links\"\u001b[39m))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 203 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 207,
+                "line": 202,
                 "column": 49
               }
             },
             {
               "title": "browserContext.waitForEvent",
-              "startTime": "2021-11-23T23:42:44.105Z",
-              "duration": 379,
-              "snippet": "\u001b[0m \u001b[90m 208 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 209 |\u001b[39m         \u001b[36mconst\u001b[39m [newDynamicPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='dynamicLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 210 |\u001b[39m         \u001b[36mawait\u001b[39m newDynamicPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:17.760Z",
+              "duration": 229,
+              "snippet": "\u001b[0m \u001b[90m 203 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 204 |\u001b[39m         \u001b[36mconst\u001b[39m [newDynamicPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='dynamicLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 205 |\u001b[39m         \u001b[36mawait\u001b[39m newDynamicPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 209,
+                "line": 204,
                 "column": 62
               }
             },
             {
               "title": "page.click(//a[@id='dynamicLink'])",
-              "startTime": "2021-11-23T23:42:44.105Z",
-              "duration": 33,
-              "snippet": "\u001b[0m \u001b[90m 208 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 209 |\u001b[39m         \u001b[36mconst\u001b[39m [newDynamicPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='dynamicLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 210 |\u001b[39m         \u001b[36mawait\u001b[39m newDynamicPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:17.760Z",
+              "duration": 30,
+              "snippet": "\u001b[0m \u001b[90m 203 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 204 |\u001b[39m         \u001b[36mconst\u001b[39m [newDynamicPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='dynamicLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 205 |\u001b[39m         \u001b[36mawait\u001b[39m newDynamicPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 209,
+                "line": 204,
                 "column": 90
               }
             },
             {
               "title": "page.waitForLoadState",
-              "startTime": "2021-11-23T23:42:44.484Z",
-              "duration": 753,
-              "snippet": "\u001b[0m \u001b[90m 209 |\u001b[39m         \u001b[36mconst\u001b[39m [newDynamicPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='dynamicLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 210 |\u001b[39m         \u001b[36mawait\u001b[39m newDynamicPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 211 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:17.989Z",
+              "duration": 652,
+              "snippet": "\u001b[0m \u001b[90m 204 |\u001b[39m         \u001b[36mconst\u001b[39m [newDynamicPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='dynamicLink']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 205 |\u001b[39m         \u001b[36mawait\u001b[39m newDynamicPage\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 206 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 210,
+                "line": 205,
                 "column": 30
               }
             },
             {
               "title": "expect.toHaveURL",
-              "startTime": "2021-11-23T23:42:45.237Z",
-              "duration": 15,
-              "snippet": "\u001b[0m \u001b[90m 211 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 212 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newDynamicPage)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://demoqa.com/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 213 |\u001b[39m         expect(newDynamicPage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"links\"\u001b[39m))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:18.642Z",
+              "duration": 16,
+              "snippet": "\u001b[0m \u001b[90m 206 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 207 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newDynamicPage)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://demoqa.com/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 208 |\u001b[39m         expect(newDynamicPage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"links\"\u001b[39m))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 212,
+                "line": 207,
                 "column": 38
               }
             },
             {
               "title": "expect.toBeFalsy",
-              "startTime": "2021-11-23T23:42:45.252Z",
+              "startTime": "2021-12-07T04:58:18.658Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 212 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newDynamicPage)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://demoqa.com/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 213 |\u001b[39m         expect(newDynamicPage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"links\"\u001b[39m))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                       ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 214 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m 207 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newDynamicPage)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://demoqa.com/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 208 |\u001b[39m         expect(newDynamicPage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"links\"\u001b[39m))\u001b[33m.\u001b[39mtoBeFalsy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                       ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 209 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 213,
+                "line": 208,
                 "column": 56
               }
             },
             {
+              "title": "page.close",
+              "startTime": "2021-12-07T04:58:18.658Z",
+              "duration": 3,
+              "snippet": "\u001b[0m \u001b[90m 209 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 210 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 211 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/demo-qa/01-elements/elements.test.js",
+                "line": 210,
+                "column": 20
+              }
+            },
+            {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:42:45.252Z",
-              "duration": 4,
-              "steps": [
-                {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:42:45.252Z",
-                  "duration": 4,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m   test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 11,
-                    "column": 16
-                  }
-                }
-              ]
+              "startTime": "2021-12-07T04:58:18.661Z",
+              "duration": 1,
+              "steps": []
             }
           ],
           "error": "",
@@ -1250,128 +1188,116 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/01-elements/elements.test.js",
-        "line": 216,
+        "line": 213,
         "column": 5
       },
-      "duration": 6218,
+      "duration": 4910,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/01-elements/elements.test.js:216",
+        "tests/demo-qa/01-elements/elements.test.js:213",
         "Test Elements on Demo QA site"
       ],
       "results": [
         {
-          "duration": 6218,
-          "startTime": "2021-11-23T23:42:45.256Z",
+          "duration": 4910,
+          "startTime": "2021-12-07T04:58:18.662Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:42:45.257Z",
-              "duration": 1884,
+              "startTime": "2021-12-07T04:58:18.662Z",
+              "duration": 202,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:42:46.452Z",
-                  "duration": 689,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m     context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m     page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 7,
-                    "column": 26
-                  }
+                  "startTime": "2021-12-07T04:58:18.667Z",
+                  "duration": 197,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/upload-download)",
-              "startTime": "2021-11-23T23:42:47.141Z",
-              "duration": 4276,
-              "snippet": "\u001b[0m \u001b[90m 217 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 218 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/upload-download\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 219 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:18.864Z",
+              "duration": 4614,
+              "snippet": "\u001b[0m \u001b[90m 214 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 215 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/upload-download\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 216 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 218,
+                "line": 215,
                 "column": 20
               }
             },
             {
               "title": "page.waitForEvent",
-              "startTime": "2021-11-23T23:42:51.417Z",
-              "duration": 39,
-              "snippet": "\u001b[0m \u001b[90m 220 |\u001b[39m         \u001b[36mconst\u001b[39m [ download ] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m 221 |\u001b[39m             page\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'download'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 222 |\u001b[39m             page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='downloadButton']\"\u001b[39m)\u001b[0m",
+              "startTime": "2021-12-07T04:58:23.479Z",
+              "duration": 68,
+              "snippet": "\u001b[0m \u001b[90m 217 |\u001b[39m         \u001b[36mconst\u001b[39m [ download ] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m 218 |\u001b[39m             page\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'download'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 219 |\u001b[39m             page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='downloadButton']\"\u001b[39m)\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 221,
+                "line": 218,
                 "column": 18
               }
             },
             {
               "title": "page.click(//a[@id='downloadButton'])",
-              "startTime": "2021-11-23T23:42:51.418Z",
-              "duration": 38,
-              "snippet": "\u001b[0m \u001b[90m 221 |\u001b[39m             page\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'download'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 222 |\u001b[39m             page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='downloadButton']\"\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 223 |\u001b[39m           ])\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:23.479Z",
+              "duration": 68,
+              "snippet": "\u001b[0m \u001b[90m 218 |\u001b[39m             page\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'download'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 219 |\u001b[39m             page\u001b[33m.\u001b[39mclick(\u001b[32m\"//a[@id='downloadButton']\"\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 220 |\u001b[39m           ])\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 222,
+                "line": 219,
                 "column": 18
               }
             },
             {
               "title": "expect.toBeTruthy",
-              "startTime": "2021-11-23T23:42:51.456Z",
+              "startTime": "2021-12-07T04:58:23.547Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 225 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 226 |\u001b[39m         expect(nameFile\u001b[33m.\u001b[39mincludes(\u001b[32m\"sampleFile\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 227 |\u001b[39m     \u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m 222 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 223 |\u001b[39m         expect(nameFile\u001b[33m.\u001b[39mincludes(\u001b[32m\"sampleFile\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 224 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 226,
+                "line": 223,
                 "column": 49
               }
             },
             {
               "title": "page.setInputFiles(//input[@id='uploadFile'])",
-              "startTime": "2021-11-23T23:42:51.459Z",
-              "duration": 9,
-              "snippet": "\u001b[0m \u001b[90m 227 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 228 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39msetInputFiles(\u001b[32m\"//input[@id='uploadFile']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'./fixtures/testPicture.png'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 229 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:23.549Z",
+              "duration": 12,
+              "snippet": "\u001b[0m \u001b[90m 224 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 225 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39msetInputFiles(\u001b[32m\"//input[@id='uploadFile']\"\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'./fixtures/testPicture.png'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 226 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 228,
+                "line": 225,
                 "column": 20
               }
             },
             {
               "title": "expect.toContainText",
-              "startTime": "2021-11-23T23:42:51.468Z",
-              "duration": 4,
-              "snippet": "\u001b[0m \u001b[90m 229 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 230 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='uploadedFilePath']\"\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[35m/testPicture.png/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 231 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:23.561Z",
+              "duration": 7,
+              "snippet": "\u001b[0m \u001b[90m 226 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 227 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//p[@id='uploadedFilePath']\"\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[35m/testPicture.png/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 228 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/01-elements/elements.test.js",
-                "line": 230,
+                "line": 227,
                 "column": 67
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:42:51.472Z",
-              "duration": 2,
+              "startTime": "2021-12-07T04:58:23.568Z",
+              "duration": 4,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:42:51.472Z",
-                  "duration": 2,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m   test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/01-elements/elements.test.js",
-                    "line": 11,
-                    "column": 16
-                  }
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:58:23.568Z",
+                  "duration": 4,
+                  "steps": []
                 }
               ]
             }

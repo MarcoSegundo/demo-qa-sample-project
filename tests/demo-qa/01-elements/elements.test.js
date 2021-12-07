@@ -1,17 +1,8 @@
 const { chromium, test, expect } = require("@playwright/test");
 
 test.describe("Test Elements on Demo QA site", () => {
-  test.beforeEach(async () => {
-    const browser = await chromium.launch();
-    context = await browser.newContext();
-    page = await context.newPage();
-  });
-  
-  test.afterEach(async () => {
-    await page.close();
-  });
 
-    test('Should be able to fill Text Box and submit the form', async () => {
+    test('Should be able to fill Text Box and submit the form', async ({ page }) => {
 
         await page.goto("https://demoqa.com/text-box");
 
@@ -31,7 +22,7 @@ test.describe("Test Elements on Demo QA site", () => {
         await expect(page.locator("//p[@id='permanentAddress']")).toHaveText(/90 E. St Margarets St.Springfield, PA 19064/);
     });
 
-    test('Should be able to fill Checkbox', async () => {
+    test('Should be able to fill Checkbox', async ({ page }) => {
         
         await page.goto("https://demoqa.com/checkbox");
     
@@ -42,7 +33,7 @@ test.describe("Test Elements on Demo QA site", () => {
         await expect(page.locator("//div[@id='result']")).toHaveText(/private/);
     });
 
-    test('Should be able to fill Radio Button', async () => {
+    test('Should be able to fill Radio Button', async ({ page }) => {
         
         await page.goto("https://demoqa.com/radio-button");
     
@@ -51,7 +42,7 @@ test.describe("Test Elements on Demo QA site", () => {
         await expect(page.locator("//span[@class='text-success']")).toHaveText(/Impressive/);
     });
 
-    test('Should be able to read from Table', async () => {
+    test('Should be able to read from Table', async ({ page }) => {
         await page.goto("https://demoqa.com/webtables");
     
         await page.fill("//input[@id='searchBox']", '2000');
@@ -96,7 +87,7 @@ test.describe("Test Elements on Demo QA site", () => {
         await expect(tableDataUpdated.includes("Kierra")).toBeFalsy();
     });
 
-    test('Should be able to interact with Buttons (click, double-click and right-click)', async () => {
+    test('Should be able to interact with Buttons (click, double-click and right-click)', async ({ page }) => {
         
         await page.goto("https://demoqa.com/buttons");
     
@@ -114,6 +105,10 @@ test.describe("Test Elements on Demo QA site", () => {
     });
 
     test('Should be able to interact with links with endpoint validation and changing tabs', async () => {
+
+        const browser = await chromium.launch();
+        context = await browser.newContext();
+        page = await context.newPage();
 
         await page.goto("https://demoqa.com/links");
         
@@ -211,9 +206,11 @@ test.describe("Test Elements on Demo QA site", () => {
 
         await expect(newDynamicPage).toHaveURL("https://demoqa.com/");
         expect(newDynamicPage.url().includes("links")).toBeFalsy();
+
+        await page.close();
     });
 
-    test('Should be able to interact with the files upload and download', async () => {
+    test('Should be able to interact with the files upload and download', async ({ page }) => {
         
         await page.goto("https://demoqa.com/upload-download");
     

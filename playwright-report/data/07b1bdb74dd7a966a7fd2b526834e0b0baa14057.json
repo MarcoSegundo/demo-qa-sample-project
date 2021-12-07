@@ -8,104 +8,92 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-        "line": 14,
+        "line": 5,
         "column": 5
       },
-      "duration": 5966,
+      "duration": 4034,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:14",
+        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:5",
         "Test Alerts, Frames and Windows on Demo QA site"
       ],
       "results": [
         {
-          "duration": 5966,
-          "startTime": "2021-11-23T23:42:57.494Z",
+          "duration": 4034,
+          "startTime": "2021-12-07T04:58:28.443Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:42:57.494Z",
-              "duration": 1935,
+              "startTime": "2021-12-07T04:58:28.443Z",
+              "duration": 112,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:42:58.722Z",
-                  "duration": 707,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m         context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 7,
-                    "column": 30
-                  }
+                  "startTime": "2021-12-07T04:58:28.447Z",
+                  "duration": 108,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/alerts)",
-              "startTime": "2021-11-23T23:42:59.429Z",
-              "duration": 3992,
-              "snippet": "\u001b[0m \u001b[90m  15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  16 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/alerts\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  17 |\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:28.555Z",
+              "duration": 3872,
+              "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/alerts\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 16,
+                "line": 7,
                 "column": 20
               }
             },
             {
               "title": "page.click(//button[@id='alertButton'])",
-              "startTime": "2021-11-23T23:43:03.422Z",
-              "duration": 44,
-              "snippet": "\u001b[0m \u001b[90m  22 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  23 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='alertButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  24 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:32.427Z",
+              "duration": 47,
+              "snippet": "\u001b[0m \u001b[90m  13 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  14 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='alertButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  15 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 23,
+                "line": 14,
                 "column": 20
               }
             },
             {
               "title": "expect.toBeTruthy",
-              "startTime": "2021-11-23T23:43:03.464Z",
+              "startTime": "2021-12-07T04:58:32.472Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  18 |\u001b[39m         page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m dialog \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  19 |\u001b[39m             \u001b[36mawait\u001b[39m expect(dialog\u001b[33m.\u001b[39mmessage()\u001b[33m.\u001b[39mincludes(\u001b[32m\"You clicked a button\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  20 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept()\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  9 |\u001b[39m         page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m dialog \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  10 |\u001b[39m             \u001b[36mawait\u001b[39m expect(dialog\u001b[33m.\u001b[39mmessage()\u001b[33m.\u001b[39mincludes(\u001b[32m\"You clicked a button\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 19,
+                "line": 10,
                 "column": 77
               }
             },
             {
               "title": "dialog.accept",
-              "startTime": "2021-11-23T23:43:03.465Z",
+              "startTime": "2021-12-07T04:58:32.473Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  19 |\u001b[39m             \u001b[36mawait\u001b[39m expect(dialog\u001b[33m.\u001b[39mmessage()\u001b[33m.\u001b[39mincludes(\u001b[32m\"You clicked a button\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  20 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  21 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m             \u001b[36mawait\u001b[39m expect(dialog\u001b[33m.\u001b[39mmessage()\u001b[33m.\u001b[39mincludes(\u001b[32m\"You clicked a button\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 20,
+                "line": 11,
                 "column": 26
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:43:03.466Z",
+              "startTime": "2021-12-07T04:58:32.474Z",
               "duration": 3,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:43:03.467Z",
-                  "duration": 2,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m     test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 11,
-                    "column": 20
-                  }
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:58:32.474Z",
+                  "duration": 3,
+                  "steps": []
                 }
               ]
             }
@@ -123,45 +111,63 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-        "line": 26,
+        "line": 17,
         "column": 5
       },
-      "duration": 12024,
+      "duration": 10199,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:26",
+        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:17",
         "Test Alerts, Frames and Windows on Demo QA site"
       ],
       "results": [
         {
-          "duration": 12024,
-          "startTime": "2021-11-23T23:43:03.469Z",
+          "duration": 10199,
+          "startTime": "2021-12-07T04:58:32.478Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:43:03.470Z",
-              "duration": 1897,
+              "startTime": "2021-12-07T04:58:32.478Z",
+              "duration": 105,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:43:04.673Z",
-                  "duration": 694,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m         context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 7,
-                    "column": 30
-                  }
+                  "startTime": "2021-12-07T04:58:32.482Z",
+                  "duration": 101,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/alerts)",
-              "startTime": "2021-11-23T23:43:05.368Z",
-              "duration": 4058,
-              "snippet": "\u001b[0m \u001b[90m  27 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  28 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/alerts\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  29 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:32.583Z",
+              "duration": 4029,
+              "snippet": "\u001b[0m \u001b[90m  18 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  19 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/alerts\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  20 |\u001b[39m     \u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+                "line": 19,
+                "column": 20
+              }
+            },
+            {
+              "title": "page.click(//button[@id='timerAlertButton'])",
+              "startTime": "2021-12-07T04:58:36.612Z",
+              "duration": 43,
+              "snippet": "\u001b[0m \u001b[90m  25 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  26 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='timerAlertButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  27 |\u001b[39m     \u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+                "line": 26,
+                "column": 20
+              }
+            },
+            {
+              "title": "page.waitForTimeout",
+              "startTime": "2021-12-07T04:58:36.655Z",
+              "duration": 6014,
+              "snippet": "\u001b[0m \u001b[90m  27 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  28 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m6000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  29 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
@@ -170,69 +176,39 @@
               }
             },
             {
-              "title": "page.click(//button[@id='timerAlertButton'])",
-              "startTime": "2021-11-23T23:43:09.426Z",
-              "duration": 41,
-              "snippet": "\u001b[0m \u001b[90m  34 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  35 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='timerAlertButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  36 |\u001b[39m     \u001b[0m",
-              "steps": [],
-              "location": {
-                "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 35,
-                "column": 20
-              }
-            },
-            {
-              "title": "page.waitForTimeout",
-              "startTime": "2021-11-23T23:43:09.467Z",
-              "duration": 6019,
-              "snippet": "\u001b[0m \u001b[90m  36 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  37 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m6000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  38 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-              "steps": [],
-              "location": {
-                "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 37,
-                "column": 20
-              }
-            },
-            {
               "title": "expect.toBeTruthy",
-              "startTime": "2021-11-23T23:43:14.486Z",
-              "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  30 |\u001b[39m         page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m dialog \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  31 |\u001b[39m             \u001b[36mawait\u001b[39m expect(dialog\u001b[33m.\u001b[39mmessage()\u001b[33m.\u001b[39mincludes(\u001b[32m\"This alert appeared after 5 seconds\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  32 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:41.673Z",
+              "duration": 1,
+              "snippet": "\u001b[0m \u001b[90m  21 |\u001b[39m         page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m dialog \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  22 |\u001b[39m             \u001b[36mawait\u001b[39m expect(dialog\u001b[33m.\u001b[39mmessage()\u001b[33m.\u001b[39mincludes(\u001b[32m\"This alert appeared after 5 seconds\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  23 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 31,
+                "line": 22,
                 "column": 92
               }
             },
             {
               "title": "dialog.accept",
-              "startTime": "2021-11-23T23:43:14.487Z",
+              "startTime": "2021-12-07T04:58:41.674Z",
               "duration": 1,
-              "snippet": "\u001b[0m \u001b[90m  31 |\u001b[39m             \u001b[36mawait\u001b[39m expect(dialog\u001b[33m.\u001b[39mmessage()\u001b[33m.\u001b[39mincludes(\u001b[32m\"This alert appeared after 5 seconds\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  32 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  33 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  22 |\u001b[39m             \u001b[36mawait\u001b[39m expect(dialog\u001b[33m.\u001b[39mmessage()\u001b[33m.\u001b[39mincludes(\u001b[32m\"This alert appeared after 5 seconds\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  23 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  24 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 32,
+                "line": 23,
                 "column": 26
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:43:15.486Z",
+              "startTime": "2021-12-07T04:58:42.669Z",
               "duration": 8,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:43:15.487Z",
-                  "duration": 6,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m     test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 11,
-                    "column": 20
-                  }
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:58:42.670Z",
+                  "duration": 7,
+                  "steps": []
                 }
               ]
             }
@@ -250,104 +226,92 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-        "line": 40,
+        "line": 31,
         "column": 5
       },
-      "duration": 8504,
+      "duration": 3457,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:40",
+        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:31",
         "Test Alerts, Frames and Windows on Demo QA site"
       ],
       "results": [
         {
-          "duration": 8504,
-          "startTime": "2021-11-23T23:43:15.494Z",
+          "duration": 3457,
+          "startTime": "2021-12-07T04:58:42.677Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:43:15.494Z",
-              "duration": 1766,
+              "startTime": "2021-12-07T04:58:42.678Z",
+              "duration": 114,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:43:16.575Z",
-                  "duration": 685,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m         context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 7,
-                    "column": 30
-                  }
+                  "startTime": "2021-12-07T04:58:42.681Z",
+                  "duration": 111,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/alerts)",
-              "startTime": "2021-11-23T23:43:17.261Z",
-              "duration": 6670,
-              "snippet": "\u001b[0m \u001b[90m  41 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  42 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/alerts\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  43 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:42.792Z",
+              "duration": 3291,
+              "snippet": "\u001b[0m \u001b[90m  32 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  33 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/alerts\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  34 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 42,
+                "line": 33,
                 "column": 20
               }
             },
             {
               "title": "page.click(//button[@id='confirmButton'])",
-              "startTime": "2021-11-23T23:43:23.931Z",
-              "duration": 55,
-              "snippet": "\u001b[0m \u001b[90m  47 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  48 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='confirmButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  49 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:46.083Z",
+              "duration": 56,
+              "snippet": "\u001b[0m \u001b[90m  38 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  39 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='confirmButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  40 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 48,
+                "line": 39,
                 "column": 20
               }
             },
             {
               "title": "dialog.dismiss",
-              "startTime": "2021-11-23T23:43:23.980Z",
+              "startTime": "2021-12-07T04:58:46.135Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  44 |\u001b[39m         page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m dialog \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  45 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39mdismiss()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  46 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  35 |\u001b[39m         page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m dialog \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  36 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39mdismiss()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  37 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 45,
+                "line": 36,
                 "column": 26
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:43:23.987Z",
-              "duration": 8,
-              "snippet": "\u001b[0m \u001b[90m  49 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  50 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//span[@id='confirmResult']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You selected Cancel/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  51 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:46.139Z",
+              "duration": 4,
+              "snippet": "\u001b[0m \u001b[90m  40 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  41 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//span[@id='confirmResult']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You selected Cancel/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  42 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 50,
+                "line": 41,
                 "column": 67
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:43:23.995Z",
-              "duration": 2,
+              "startTime": "2021-12-07T04:58:46.143Z",
+              "duration": 3,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:43:23.996Z",
-                  "duration": 1,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m     test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 11,
-                    "column": 20
-                  }
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:58:46.143Z",
+                  "duration": 3,
+                  "steps": []
                 }
               ]
             }
@@ -365,104 +329,92 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-        "line": 53,
+        "line": 44,
         "column": 5
       },
-      "duration": 5892,
+      "duration": 3617,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:53",
+        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:44",
         "Test Alerts, Frames and Windows on Demo QA site"
       ],
       "results": [
         {
-          "duration": 5892,
-          "startTime": "2021-11-23T23:43:23.998Z",
+          "duration": 3617,
+          "startTime": "2021-12-07T04:58:46.146Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:43:23.998Z",
-              "duration": 1861,
+              "startTime": "2021-12-07T04:58:46.146Z",
+              "duration": 182,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:43:25.167Z",
-                  "duration": 692,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m         context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 7,
-                    "column": 30
-                  }
+                  "startTime": "2021-12-07T04:58:46.151Z",
+                  "duration": 177,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/alerts)",
-              "startTime": "2021-11-23T23:43:25.860Z",
-              "duration": 3971,
-              "snippet": "\u001b[0m \u001b[90m  54 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  55 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/alerts\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  56 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:46.329Z",
+              "duration": 3375,
+              "snippet": "\u001b[0m \u001b[90m  45 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  46 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/alerts\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  47 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 55,
+                "line": 46,
                 "column": 20
               }
             },
             {
               "title": "page.click(//button[@id='confirmButton'])",
-              "startTime": "2021-11-23T23:43:29.832Z",
-              "duration": 51,
-              "snippet": "\u001b[0m \u001b[90m  60 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  61 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='confirmButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  62 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:49.705Z",
+              "duration": 50,
+              "snippet": "\u001b[0m \u001b[90m  51 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  52 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='confirmButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  53 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 61,
+                "line": 52,
                 "column": 20
               }
             },
             {
               "title": "dialog.accept",
-              "startTime": "2021-11-23T23:43:29.880Z",
+              "startTime": "2021-12-07T04:58:49.752Z",
               "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  57 |\u001b[39m         page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m dialog \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  58 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  59 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  48 |\u001b[39m         page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m dialog \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  49 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  50 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 58,
+                "line": 49,
                 "column": 26
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:43:29.883Z",
-              "duration": 4,
-              "snippet": "\u001b[0m \u001b[90m  62 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  63 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//span[@id='confirmResult']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You selected Ok/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  64 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:49.755Z",
+              "duration": 5,
+              "snippet": "\u001b[0m \u001b[90m  53 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  54 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//span[@id='confirmResult']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You selected Ok/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  55 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 63,
+                "line": 54,
                 "column": 67
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:43:29.887Z",
-              "duration": 2,
+              "startTime": "2021-12-07T04:58:49.760Z",
+              "duration": 3,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:43:29.887Z",
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:58:49.761Z",
                   "duration": 2,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m     test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 11,
-                    "column": 20
-                  }
+                  "steps": []
                 }
               ]
             }
@@ -480,104 +432,92 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-        "line": 66,
+        "line": 57,
         "column": 5
       },
-      "duration": 6463,
+      "duration": 4073,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:66",
+        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:57",
         "Test Alerts, Frames and Windows on Demo QA site"
       ],
       "results": [
         {
-          "duration": 6463,
-          "startTime": "2021-11-23T23:43:29.889Z",
+          "duration": 4073,
+          "startTime": "2021-12-07T04:58:49.763Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:43:29.889Z",
-              "duration": 2031,
+              "startTime": "2021-12-07T04:58:49.764Z",
+              "duration": 148,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:43:31.197Z",
-                  "duration": 723,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m         context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 7,
-                    "column": 30
-                  }
+                  "startTime": "2021-12-07T04:58:49.768Z",
+                  "duration": 144,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/alerts)",
-              "startTime": "2021-11-23T23:43:31.920Z",
-              "duration": 4364,
-              "snippet": "\u001b[0m \u001b[90m  67 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  68 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/alerts\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  69 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:49.912Z",
+              "duration": 3855,
+              "snippet": "\u001b[0m \u001b[90m  58 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  59 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/alerts\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  60 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 68,
+                "line": 59,
                 "column": 20
               }
             },
             {
               "title": "page.click(//button[@id='promtButton'])",
-              "startTime": "2021-11-23T23:43:36.284Z",
-              "duration": 60,
-              "snippet": "\u001b[0m \u001b[90m  73 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  74 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='promtButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  75 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:53.768Z",
+              "duration": 57,
+              "snippet": "\u001b[0m \u001b[90m  64 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  65 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='promtButton']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  66 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 74,
+                "line": 65,
                 "column": 20
               }
             },
             {
               "title": "dialog.accept",
-              "startTime": "2021-11-23T23:43:36.341Z",
-              "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m  70 |\u001b[39m         page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m dialog \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  71 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept(\u001b[32m\"Cristiano Ronaldo dos Santos Aveiro\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  72 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:53.817Z",
+              "duration": 1,
+              "snippet": "\u001b[0m \u001b[90m  61 |\u001b[39m         page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m dialog \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  62 |\u001b[39m             \u001b[36mawait\u001b[39m dialog\u001b[33m.\u001b[39maccept(\u001b[32m\"Cristiano Ronaldo dos Santos Aveiro\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  63 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 71,
+                "line": 62,
                 "column": 26
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:43:36.345Z",
-              "duration": 4,
-              "snippet": "\u001b[0m \u001b[90m  75 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  76 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//span[@id='promptResult']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You entered Cristiano Ronaldo dos Santos Aveiro/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  77 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:53.826Z",
+              "duration": 8,
+              "snippet": "\u001b[0m \u001b[90m  66 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  67 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//span[@id='promptResult']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/You entered Cristiano Ronaldo dos Santos Aveiro/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  68 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 76,
+                "line": 67,
                 "column": 66
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:43:36.349Z",
-              "duration": 3,
+              "startTime": "2021-12-07T04:58:53.834Z",
+              "duration": 2,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:43:36.350Z",
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:58:53.834Z",
                   "duration": 2,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m     test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 11,
-                    "column": 20
-                  }
+                  "steps": []
                 }
               ]
             }
@@ -595,128 +535,116 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-        "line": 79,
+        "line": 70,
         "column": 5
       },
-      "duration": 6893,
+      "duration": 4667,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:79",
+        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:70",
         "Test Alerts, Frames and Windows on Demo QA site"
       ],
       "results": [
         {
-          "duration": 6893,
-          "startTime": "2021-11-23T23:43:36.352Z",
+          "duration": 4667,
+          "startTime": "2021-12-07T04:58:53.837Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:43:36.352Z",
-              "duration": 1822,
+              "startTime": "2021-12-07T04:58:53.837Z",
+              "duration": 126,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:43:37.517Z",
-                  "duration": 657,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m         context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 7,
-                    "column": 30
-                  }
+                  "startTime": "2021-12-07T04:58:53.842Z",
+                  "duration": 121,
+                  "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://demoqa.com/modal-dialogs)",
-              "startTime": "2021-11-23T23:43:38.175Z",
-              "duration": 4392,
-              "snippet": "\u001b[0m \u001b[90m  80 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  81 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/modal-dialogs\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  82 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:53.963Z",
+              "duration": 3859,
+              "snippet": "\u001b[0m \u001b[90m  71 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m  72 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/modal-dialogs\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  73 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 81,
+                "line": 72,
                 "column": 20
               }
             },
             {
               "title": "page.click(//button[@id='showSmallModal'])",
-              "startTime": "2021-11-23T23:43:42.567Z",
-              "duration": 62,
-              "snippet": "\u001b[0m \u001b[90m  82 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  83 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='showSmallModal']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  84 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:57.823Z",
+              "duration": 79,
+              "snippet": "\u001b[0m \u001b[90m  73 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  74 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='showSmallModal']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  75 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 83,
+                "line": 74,
                 "column": 20
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:43:42.630Z",
-              "duration": 4,
-              "snippet": "\u001b[0m \u001b[90m  84 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  85 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//div[@class='modal-body']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/This is a small modal. It has very less content/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  86 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:57.902Z",
+              "duration": 7,
+              "snippet": "\u001b[0m \u001b[90m  75 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  76 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//div[@class='modal-body']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/This is a small modal. It has very less content/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  77 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 85,
+                "line": 76,
                 "column": 66
               }
             },
             {
               "title": "page.click(//button[@id='closeSmallModal'])",
-              "startTime": "2021-11-23T23:43:42.634Z",
-              "duration": 312,
-              "snippet": "\u001b[0m \u001b[90m  86 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  87 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='closeSmallModal']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  88 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:57.909Z",
+              "duration": 315,
+              "snippet": "\u001b[0m \u001b[90m  77 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  78 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='closeSmallModal']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  79 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 87,
+                "line": 78,
                 "column": 20
               }
             },
             {
               "title": "page.click(//button[@id='showLargeModal'])",
-              "startTime": "2021-11-23T23:43:42.946Z",
-              "duration": 288,
-              "snippet": "\u001b[0m \u001b[90m  88 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  89 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='showLargeModal']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  90 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:58:58.224Z",
+              "duration": 263,
+              "snippet": "\u001b[0m \u001b[90m  79 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  80 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='showLargeModal']\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  81 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 89,
+                "line": 80,
                 "column": 20
               }
             },
             {
               "title": "expect.toHaveText",
-              "startTime": "2021-11-23T23:43:43.234Z",
-              "duration": 9,
-              "snippet": "\u001b[0m \u001b[90m  90 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  91 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//div[@class='modal-body']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum./\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  92 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:58:58.487Z",
+              "duration": 11,
+              "snippet": "\u001b[0m \u001b[90m  81 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  82 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//div[@class='modal-body']\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum./\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  83 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 91,
+                "line": 82,
                 "column": 66
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:43:43.243Z",
-              "duration": 3,
+              "startTime": "2021-12-07T04:58:58.498Z",
+              "duration": 5,
               "steps": [
                 {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:43:43.243Z",
-                  "duration": 2,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m     test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 11,
-                    "column": 20
-                  }
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-07T04:58:58.499Z",
+                  "duration": 4,
+                  "steps": []
                 }
               ]
             }
@@ -734,202 +662,200 @@
       "projectName": "",
       "location": {
         "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-        "line": 94,
+        "line": 85,
         "column": 5
       },
-      "duration": 12464,
+      "duration": 5467,
       "outcome": "expected",
       "path": [
-        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:94",
+        "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:85",
         "Test Alerts, Frames and Windows on Demo QA site"
       ],
       "results": [
         {
-          "duration": 12464,
-          "startTime": "2021-11-23T23:43:43.246Z",
+          "duration": 5467,
+          "startTime": "2021-12-07T04:58:58.503Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2021-11-23T23:43:43.246Z",
-              "duration": 6467,
-              "steps": [
-                {
-                  "title": "browserContext.newPage",
-                  "startTime": "2021-11-23T23:43:49.032Z",
-                  "duration": 681,
-                  "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m         context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m         page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 7,
-                    "column": 30
-                  }
-                }
-              ]
+              "startTime": "2021-12-07T04:58:58.503Z",
+              "duration": 1,
+              "steps": []
             },
             {
-              "title": "page.goto(https://demoqa.com/browser-windows)",
-              "startTime": "2021-11-23T23:43:49.714Z",
-              "duration": 5436,
-              "snippet": "\u001b[0m \u001b[90m  95 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  96 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/browser-windows\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  97 |\u001b[39m     \u001b[0m",
+              "title": "browserContext.newPage",
+              "startTime": "2021-12-07T04:58:59.101Z",
+              "duration": 498,
+              "snippet": "\u001b[0m \u001b[90m  88 |\u001b[39m         context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  89 |\u001b[39m         page \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  90 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 96,
+                "line": 89,
+                "column": 30
+              }
+            },
+            {
+              "title": "page.goto(https://demoqa.com/browser-windows)",
+              "startTime": "2021-12-07T04:58:59.600Z",
+              "duration": 3827,
+              "snippet": "\u001b[0m \u001b[90m  90 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  91 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/browser-windows\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  92 |\u001b[39m     \u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+                "line": 91,
                 "column": 20
               }
             },
             {
               "title": "browserContext.waitForEvent",
-              "startTime": "2021-11-23T23:43:55.150Z",
-              "duration": 246,
-              "snippet": "\u001b[0m \u001b[90m  97 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  98 |\u001b[39m         \u001b[36mconst\u001b[39m [newTab] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='tabButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  99 |\u001b[39m         \u001b[36mawait\u001b[39m newTab\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:59:03.427Z",
+              "duration": 242,
+              "snippet": "\u001b[0m \u001b[90m  92 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  93 |\u001b[39m         \u001b[36mconst\u001b[39m [newTab] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='tabButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  94 |\u001b[39m         \u001b[36mawait\u001b[39m newTab\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 98,
+                "line": 93,
                 "column": 54
               }
             },
             {
               "title": "page.click(//button[@id='tabButton'])",
-              "startTime": "2021-11-23T23:43:55.151Z",
-              "duration": 61,
-              "snippet": "\u001b[0m \u001b[90m  97 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  98 |\u001b[39m         \u001b[36mconst\u001b[39m [newTab] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='tabButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  99 |\u001b[39m         \u001b[36mawait\u001b[39m newTab\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:59:03.427Z",
+              "duration": 51,
+              "snippet": "\u001b[0m \u001b[90m  92 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  93 |\u001b[39m         \u001b[36mconst\u001b[39m [newTab] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='tabButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  94 |\u001b[39m         \u001b[36mawait\u001b[39m newTab\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 98,
+                "line": 93,
                 "column": 82
               }
             },
             {
               "title": "page.waitForLoadState",
-              "startTime": "2021-11-23T23:43:55.397Z",
+              "startTime": "2021-12-07T04:59:03.669Z",
               "duration": 1,
-              "snippet": "\u001b[0m \u001b[90m  98 |\u001b[39m         \u001b[36mconst\u001b[39m [newTab] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='tabButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  99 |\u001b[39m         \u001b[36mawait\u001b[39m newTab\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 100 |\u001b[39m     \u001b[0m",
+              "snippet": "\u001b[0m \u001b[90m  93 |\u001b[39m         \u001b[36mconst\u001b[39m [newTab] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='tabButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  94 |\u001b[39m         \u001b[36mawait\u001b[39m newTab\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 99,
+                "line": 94,
                 "column": 22
               }
             },
             {
               "title": "expect.toContainText",
-              "startTime": "2021-11-23T23:43:55.398Z",
-              "duration": 15,
-              "snippet": "\u001b[0m \u001b[90m 100 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 101 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newTab\u001b[33m.\u001b[39mlocator(\u001b[32m\"//h1[@id='sampleHeading']\"\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m\"This is a sample page\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 102 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:59:03.671Z",
+              "duration": 10,
+              "snippet": "\u001b[0m \u001b[90m  95 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  96 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newTab\u001b[33m.\u001b[39mlocator(\u001b[32m\"//h1[@id='sampleHeading']\"\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m\"This is a sample page\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  97 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 101,
+                "line": 96,
                 "column": 67
               }
             },
             {
               "title": "browserContext.waitForEvent",
-              "startTime": "2021-11-23T23:43:55.414Z",
-              "duration": 222,
-              "snippet": "\u001b[0m \u001b[90m 102 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 103 |\u001b[39m         \u001b[36mconst\u001b[39m [newWindow] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='windowButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 104 |\u001b[39m         \u001b[36mawait\u001b[39m newWindow\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:59:03.681Z",
+              "duration": 219,
+              "snippet": "\u001b[0m \u001b[90m  97 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  98 |\u001b[39m         \u001b[36mconst\u001b[39m [newWindow] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='windowButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  99 |\u001b[39m         \u001b[36mawait\u001b[39m newWindow\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 103,
+                "line": 98,
                 "column": 57
               }
             },
             {
               "title": "page.click(//button[@id='windowButton'])",
-              "startTime": "2021-11-23T23:43:55.414Z",
-              "duration": 41,
-              "snippet": "\u001b[0m \u001b[90m 102 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 103 |\u001b[39m         \u001b[36mconst\u001b[39m [newWindow] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='windowButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 104 |\u001b[39m         \u001b[36mawait\u001b[39m newWindow\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:59:03.681Z",
+              "duration": 24,
+              "snippet": "\u001b[0m \u001b[90m  97 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m  98 |\u001b[39m         \u001b[36mconst\u001b[39m [newWindow] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='windowButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  99 |\u001b[39m         \u001b[36mawait\u001b[39m newWindow\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 103,
+                "line": 98,
                 "column": 85
               }
             },
             {
               "title": "page.waitForLoadState",
-              "startTime": "2021-11-23T23:43:55.637Z",
-              "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m         \u001b[36mconst\u001b[39m [newWindow] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='windowButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 104 |\u001b[39m         \u001b[36mawait\u001b[39m newWindow\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 105 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:59:03.902Z",
+              "duration": 2,
+              "snippet": "\u001b[0m \u001b[90m  98 |\u001b[39m         \u001b[36mconst\u001b[39m [newWindow] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='windowButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  99 |\u001b[39m         \u001b[36mawait\u001b[39m newWindow\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 100 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 104,
+                "line": 99,
                 "column": 25
               }
             },
             {
               "title": "expect.toContainText",
-              "startTime": "2021-11-23T23:43:55.638Z",
-              "duration": 7,
-              "snippet": "\u001b[0m \u001b[90m 105 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 106 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newWindow\u001b[33m.\u001b[39mlocator(\u001b[32m\"//h1[@id='sampleHeading']\"\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m\"This is a sample page\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 107 |\u001b[39m     \u001b[0m",
+              "startTime": "2021-12-07T04:59:03.905Z",
+              "duration": 14,
+              "snippet": "\u001b[0m \u001b[90m 100 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 101 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newWindow\u001b[33m.\u001b[39mlocator(\u001b[32m\"//h1[@id='sampleHeading']\"\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m\"This is a sample page\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 102 |\u001b[39m     \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 106,
+                "line": 101,
                 "column": 70
               }
             },
             {
               "title": "browserContext.waitForEvent",
-              "startTime": "2021-11-23T23:43:55.645Z",
-              "duration": 40,
-              "snippet": "\u001b[0m \u001b[90m 107 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 108 |\u001b[39m         \u001b[36mconst\u001b[39m [newMessageWindow] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='messageWindowButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 109 |\u001b[39m         \u001b[36mawait\u001b[39m newMessageWindow\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:59:03.919Z",
+              "duration": 34,
+              "snippet": "\u001b[0m \u001b[90m 102 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 103 |\u001b[39m         \u001b[36mconst\u001b[39m [newMessageWindow] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='messageWindowButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 104 |\u001b[39m         \u001b[36mawait\u001b[39m newMessageWindow\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 108,
+                "line": 103,
                 "column": 64
               }
             },
             {
               "title": "page.click(//button[@id='messageWindowButton'])",
-              "startTime": "2021-11-23T23:43:55.645Z",
-              "duration": 51,
-              "snippet": "\u001b[0m \u001b[90m 107 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 108 |\u001b[39m         \u001b[36mconst\u001b[39m [newMessageWindow] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='messageWindowButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 109 |\u001b[39m         \u001b[36mawait\u001b[39m newMessageWindow\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:59:03.919Z",
+              "duration": 42,
+              "snippet": "\u001b[0m \u001b[90m 102 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 103 |\u001b[39m         \u001b[36mconst\u001b[39m [newMessageWindow] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([ context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m  page\u001b[33m.\u001b[39mclick(\u001b[32m\"//button[@id='messageWindowButton']\"\u001b[39m)])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                                                           ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 104 |\u001b[39m         \u001b[36mawait\u001b[39m newMessageWindow\u001b[33m.\u001b[39mwaitForLoadState()\u001b[33m;\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 108,
+                "line": 103,
                 "column": 92
               }
             },
             {
               "title": "expect.toContainText",
-              "startTime": "2021-11-23T23:43:55.697Z",
-              "duration": 10,
-              "snippet": "\u001b[0m \u001b[90m 110 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 111 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newMessageWindow\u001b[33m.\u001b[39mlocator(\u001b[32m\"body\"\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m\"Knowledge increases by sharing but not by saving\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                       ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 112 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "startTime": "2021-12-07T04:59:03.961Z",
+              "duration": 8,
+              "snippet": "\u001b[0m \u001b[90m 105 |\u001b[39m     \u001b[0m\n\u001b[0m \u001b[90m 106 |\u001b[39m         \u001b[36mawait\u001b[39m expect(newMessageWindow\u001b[33m.\u001b[39mlocator(\u001b[32m\"body\"\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m\"Knowledge increases by sharing but not by saving\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                                                       ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 107 |\u001b[39m         \u001b[0m",
               "steps": [],
               "location": {
                 "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                "line": 111,
+                "line": 106,
                 "column": 56
               }
             },
             {
+              "title": "page.close",
+              "startTime": "2021-12-07T04:59:03.969Z",
+              "duration": 1,
+              "snippet": "\u001b[0m \u001b[90m 107 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 108 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 109 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
+                "line": 108,
+                "column": 20
+              }
+            },
+            {
               "title": "After Hooks",
-              "startTime": "2021-11-23T23:43:55.707Z",
-              "duration": 3,
-              "steps": [
-                {
-                  "title": "page.close",
-                  "startTime": "2021-11-23T23:43:55.708Z",
-                  "duration": 2,
-                  "snippet": "\u001b[0m \u001b[90m  10 |\u001b[39m     test\u001b[33m.\u001b[39mafterEach(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  11 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m \u001b[31m\u001b[1m                   ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  12 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m",
-                  "steps": [],
-                  "location": {
-                    "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-                    "line": 11,
-                    "column": 20
-                  }
-                }
-              ]
+              "startTime": "2021-12-07T04:59:03.971Z",
+              "duration": 0,
+              "steps": []
             }
           ],
           "error": "",

@@ -1,17 +1,8 @@
 const { chromium, test, expect } = require("@playwright/test");
 
 test.describe("Test Alerts, Frames and Windows on Demo QA site", () => {
-    test.beforeEach(async () => {
-        const browser = await chromium.launch();
-        context = await browser.newContext();
-        page = await context.newPage();
-    });
-    
-    test.afterEach(async () => {
-        await page.close();
-    });
 
-    test('Should be able to interact with alerts 1  - Click Button to see alert', async () => {
+    test('Should be able to interact with alerts 1  - Click Button to see alert', async ({ page }) => {
 
         await page.goto("https://demoqa.com/alerts");
 
@@ -23,7 +14,7 @@ test.describe("Test Alerts, Frames and Windows on Demo QA site", () => {
         await page.click("//button[@id='alertButton']");
     });
 
-    test('Should be able to interact with alerts 2 - Alert appears after 5 seconds', async () => {
+    test('Should be able to interact with alerts 2 - Alert appears after 5 seconds', async ({ page }) => {
         
         await page.goto("https://demoqa.com/alerts");
     
@@ -37,7 +28,7 @@ test.describe("Test Alerts, Frames and Windows on Demo QA site", () => {
         await page.waitForTimeout(6000);
     });
 
-    test('Should be able to interact with alerts 3 - Select Cancel on confirm box', async () => {
+    test('Should be able to interact with alerts 3 - Select Cancel on confirm box', async ({ page }) => {
         
         await page.goto("https://demoqa.com/alerts");
     
@@ -50,7 +41,7 @@ test.describe("Test Alerts, Frames and Windows on Demo QA site", () => {
         await expect(page.locator("//span[@id='confirmResult']")).toHaveText(/You selected Cancel/);
     });
 
-    test('Should be able to interact with alerts 4 - Select Ok on confirm box', async () => {
+    test('Should be able to interact with alerts 4 - Select Ok on confirm box', async ({ page }) => {
         
         await page.goto("https://demoqa.com/alerts");
     
@@ -63,7 +54,7 @@ test.describe("Test Alerts, Frames and Windows on Demo QA site", () => {
         await expect(page.locator("//span[@id='confirmResult']")).toHaveText(/You selected Ok/);
     });
 
-    test('Should be able to interact with alerts 5 - Fill prompt box', async () => {
+    test('Should be able to interact with alerts 5 - Fill prompt box', async ({ page }) => {
         
         await page.goto("https://demoqa.com/alerts");
     
@@ -76,7 +67,7 @@ test.describe("Test Alerts, Frames and Windows on Demo QA site", () => {
         await expect(page.locator("//span[@id='promptResult']")).toHaveText(/You entered Cristiano Ronaldo dos Santos Aveiro/);
     });
 
-    test('Should be able to interact with modals - Small and Large modals', async () => {
+    test('Should be able to interact with modals - Small and Large modals', async ({ page }) => {
         
         await page.goto("https://demoqa.com/modal-dialogs");
     
@@ -92,6 +83,10 @@ test.describe("Test Alerts, Frames and Windows on Demo QA site", () => {
     });
 
     test('Should be able to interact with browser windows', async () => {
+
+        const browser = await chromium.launch();
+        context = await browser.newContext();
+        page = await context.newPage();
 
         await page.goto("https://demoqa.com/browser-windows");
     
@@ -109,5 +104,7 @@ test.describe("Test Alerts, Frames and Windows on Demo QA site", () => {
         await newMessageWindow.waitForLoadState();
     
         await expect(newMessageWindow.locator("body")).toContainText("Knowledge increases by sharing but not by saving");
+        
+        await page.close();
     });
 });

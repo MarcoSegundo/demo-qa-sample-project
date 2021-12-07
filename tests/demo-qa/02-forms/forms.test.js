@@ -1,17 +1,8 @@
-const { chromium, test, expect } = require("@playwright/test");
+const { test, expect } = require("@playwright/test");
 
 test.describe("Test Forms on Demo QA site", () => {
-    test.beforeEach(async () => {
-        const browser = await chromium.launch();
-        context = await browser.newContext();
-        page = await context.newPage();
-    });
-    
-    test.afterEach(async () => {
-        await page.close();
-    });
 
-    test('Should be able to fill and submit the form', async () => {
+    test('Should be able to fill and submit the form', async ({ page }) => {
 
         await page.goto("https://demoqa.com/automation-practice-form");
 

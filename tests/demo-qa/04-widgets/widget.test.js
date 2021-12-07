@@ -1,17 +1,8 @@
-const { chromium, test, expect } = require("@playwright/test");
+const { test, expect } = require("@playwright/test");
 
 test.describe("Test Widgets on Demo QA site", () => {
-    test.beforeEach(async () => {
-        const browser = await chromium.launch();
-        context = await browser.newContext();
-        page = await context.newPage();
-    });
-    
-    test.afterEach(async () => {
-        await page.close();
-    });
 
-    test('Should be able to interact with Accordion Widgets', async () => {
+    test('Should be able to interact with Accordion Widgets', async ({ page }) => {
 
         await page.goto("https://demoqa.com/accordian");
 
@@ -79,7 +70,7 @@ test.describe("Test Widgets on Demo QA site", () => {
         expect(section3Heading.length > 0).toBeTruthy();
     });
 
-    test('Should be able to interact with Auto Complete Widgets', async () => {
+    test('Should be able to interact with Auto Complete Widgets', async ({ page }) => {
         
         await page.goto("https://demoqa.com/auto-complete");
     
@@ -108,7 +99,7 @@ test.describe("Test Widgets on Demo QA site", () => {
         await expect(page.locator("//*[contains(@class,'auto-complete__single-value')][contains(text(),'Green')]")).toBeVisible();
     });
 
-    test('Should be able to interact with Date Picker Widgets', async () => {
+    test('Should be able to interact with Date Picker Widgets', async ({ page }) => {
         
         await page.goto("https://demoqa.com/date-picker");
     
@@ -143,7 +134,7 @@ test.describe("Test Widgets on Demo QA site", () => {
         await expect(page.locator("//input[@id='dateAndTimePickerInput']")).toHaveAttribute("value", "July 7, 1993 10:00 PM");
     });
 
-    test('Should be able to interact with Slider Widgets', async () => {
+    test('Should be able to interact with Slider Widgets', async ({ page }) => {
         
         await page.goto("https://demoqa.com/slider");
     
@@ -160,7 +151,7 @@ test.describe("Test Widgets on Demo QA site", () => {
         await expect(page.locator("//input[contains(@id,'sliderValue')]")).toHaveAttribute("value", "80");
     });
 
-    test('Should be able to interact with Progress Bar Widgets', async () => {
+    test('Should be able to interact with Progress Bar Widgets', async ({ page }) => {
         
         await page.goto("https://demoqa.com/progress-bar");
     
@@ -189,7 +180,7 @@ test.describe("Test Widgets on Demo QA site", () => {
         await expect(page.locator("//div[@aria-valuenow]")).toHaveAttribute("style", "width: 0%;");
     });
 
-    test('Should be able to interact with Tabs Widgets', async () => {
+    test('Should be able to interact with Tabs Widgets', async ({ page }) => {
         
         await page.goto("https://demoqa.com/tabs");
     
@@ -290,7 +281,7 @@ test.describe("Test Widgets on Demo QA site", () => {
         await expect(page.locator("//div[@id='demo-tabpane-more'][contains(@class,'active show')]")).toHaveCount(0);
     });
 
-    test('Should be able to interact with Tool Tips Widgets', async () => {
+    test('Should be able to interact with Tool Tips Widgets', async ({ page }) => {
         
         await page.goto("https://demoqa.com/tool-tips");
     
@@ -321,7 +312,7 @@ test.describe("Test Widgets on Demo QA site", () => {
         await expect(page.locator("//div[@class='tooltip-inner']")).toHaveText(/You hovered over the 1.10.32/);
     });
 
-    test('Should be able to interact with Menu Widgets', async () => {
+    test('Should be able to interact with Menu Widgets', async ({ page }) => {
         
         await page.goto("https://demoqa.com/menu");
     
@@ -344,7 +335,7 @@ test.describe("Test Widgets on Demo QA site", () => {
         await expect(page.locator("//div[@class='nav-menu-container']//a[contains(text(),'Sub Item 2')]")).toBeVisible();
     });
 
-    test('Should be able to interact with Select Menu Widgets', async () => {
+    test('Should be able to interact with Select Menu Widgets', async ({ page }) => {
         
         await page.goto("https://demoqa.com/select-menu");
     

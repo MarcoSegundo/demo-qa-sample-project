@@ -10,13 +10,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/01-elements/elements.test.js",
-            "line": 14,
+            "line": 5,
             "column": 5
           },
-          "duration": 6305,
+          "duration": 5531,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/01-elements/elements.test.js:14",
+            "tests/demo-qa/01-elements/elements.test.js:5",
             "Test Elements on Demo QA site"
           ],
           "ok": true
@@ -27,13 +27,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/01-elements/elements.test.js",
-            "line": 34,
+            "line": 25,
             "column": 5
           },
-          "duration": 6649,
+          "duration": 4225,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/01-elements/elements.test.js:34",
+            "tests/demo-qa/01-elements/elements.test.js:25",
             "Test Elements on Demo QA site"
           ],
           "ok": true
@@ -44,13 +44,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/01-elements/elements.test.js",
-            "line": 45,
+            "line": 36,
             "column": 5
           },
-          "duration": 5912,
+          "duration": 4051,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/01-elements/elements.test.js:45",
+            "tests/demo-qa/01-elements/elements.test.js:36",
             "Test Elements on Demo QA site"
           ],
           "ok": true
@@ -61,13 +61,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/01-elements/elements.test.js",
-            "line": 54,
+            "line": 45,
             "column": 5
           },
-          "duration": 6801,
+          "duration": 6272,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/01-elements/elements.test.js:54",
+            "tests/demo-qa/01-elements/elements.test.js:45",
             "Test Elements on Demo QA site"
           ],
           "ok": true
@@ -78,13 +78,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/01-elements/elements.test.js",
-            "line": 99,
+            "line": 90,
             "column": 5
           },
-          "duration": 6201,
+          "duration": 4144,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/01-elements/elements.test.js:99",
+            "tests/demo-qa/01-elements/elements.test.js:90",
             "Test Elements on Demo QA site"
           ],
           "ok": true
@@ -95,13 +95,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/01-elements/elements.test.js",
-            "line": 116,
+            "line": 107,
             "column": 5
           },
-          "duration": 12664,
+          "duration": 10166,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/01-elements/elements.test.js:116",
+            "tests/demo-qa/01-elements/elements.test.js:107",
             "Test Elements on Demo QA site"
           ],
           "ok": true
@@ -112,13 +112,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/01-elements/elements.test.js",
-            "line": 216,
+            "line": 213,
             "column": 5
           },
-          "duration": 6218,
+          "duration": 4910,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/01-elements/elements.test.js:216",
+            "tests/demo-qa/01-elements/elements.test.js:213",
             "Test Elements on Demo QA site"
           ],
           "ok": true
@@ -131,7 +131,7 @@
         "flaky": 0,
         "skipped": 0,
         "ok": true,
-        "duration": 50750
+        "duration": 39299
       }
     },
     {
@@ -144,13 +144,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/02-forms/forms.test.js",
-            "line": 14,
+            "line": 5,
             "column": 5
           },
-          "duration": 6007,
+          "duration": 4858,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/02-forms/forms.test.js:14",
+            "tests/demo-qa/02-forms/forms.test.js:5",
             "Test Forms on Demo QA site"
           ],
           "ok": true
@@ -163,7 +163,7 @@
         "flaky": 0,
         "skipped": 0,
         "ok": true,
-        "duration": 6007
+        "duration": 4858
       }
     },
     {
@@ -176,13 +176,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-            "line": 14,
+            "line": 5,
             "column": 5
           },
-          "duration": 5966,
+          "duration": 4034,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:14",
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:5",
             "Test Alerts, Frames and Windows on Demo QA site"
           ],
           "ok": true
@@ -193,13 +193,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-            "line": 26,
+            "line": 17,
             "column": 5
           },
-          "duration": 12024,
+          "duration": 10199,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:26",
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:17",
             "Test Alerts, Frames and Windows on Demo QA site"
           ],
           "ok": true
@@ -210,13 +210,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-            "line": 40,
+            "line": 31,
             "column": 5
           },
-          "duration": 8504,
+          "duration": 3457,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:40",
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:31",
             "Test Alerts, Frames and Windows on Demo QA site"
           ],
           "ok": true
@@ -227,13 +227,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-            "line": 53,
+            "line": 44,
             "column": 5
           },
-          "duration": 5892,
+          "duration": 3617,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:53",
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:44",
             "Test Alerts, Frames and Windows on Demo QA site"
           ],
           "ok": true
@@ -244,13 +244,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-            "line": 66,
+            "line": 57,
             "column": 5
           },
-          "duration": 6463,
+          "duration": 4073,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:66",
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:57",
             "Test Alerts, Frames and Windows on Demo QA site"
           ],
           "ok": true
@@ -261,13 +261,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-            "line": 79,
+            "line": 70,
             "column": 5
           },
-          "duration": 6893,
+          "duration": 4667,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:79",
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:70",
             "Test Alerts, Frames and Windows on Demo QA site"
           ],
           "ok": true
@@ -278,13 +278,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js",
-            "line": 94,
+            "line": 85,
             "column": 5
           },
-          "duration": 12464,
+          "duration": 5467,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:94",
+            "tests/demo-qa/03-alerts-frames-windows/alerts-frames-windows.test.js:85",
             "Test Alerts, Frames and Windows on Demo QA site"
           ],
           "ok": true
@@ -297,7 +297,7 @@
         "flaky": 0,
         "skipped": 0,
         "ok": true,
-        "duration": 58206
+        "duration": 35514
       }
     },
     {
@@ -310,13 +310,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/04-widgets/widget.test.js",
-            "line": 14,
+            "line": 5,
             "column": 5
           },
-          "duration": 12087,
+          "duration": 7403,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/04-widgets/widget.test.js:14",
+            "tests/demo-qa/04-widgets/widget.test.js:5",
             "Test Widgets on Demo QA site"
           ],
           "ok": true
@@ -327,13 +327,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/04-widgets/widget.test.js",
-            "line": 82,
+            "line": 73,
             "column": 5
           },
-          "duration": 7709,
+          "duration": 3934,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/04-widgets/widget.test.js:82",
+            "tests/demo-qa/04-widgets/widget.test.js:73",
             "Test Widgets on Demo QA site"
           ],
           "ok": true
@@ -344,13 +344,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/04-widgets/widget.test.js",
-            "line": 111,
+            "line": 102,
             "column": 5
           },
-          "duration": 9653,
+          "duration": 5465,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/04-widgets/widget.test.js:111",
+            "tests/demo-qa/04-widgets/widget.test.js:102",
             "Test Widgets on Demo QA site"
           ],
           "ok": true
@@ -361,13 +361,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/04-widgets/widget.test.js",
-            "line": 146,
+            "line": 137,
             "column": 5
           },
-          "duration": 6446,
+          "duration": 4004,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/04-widgets/widget.test.js:146",
+            "tests/demo-qa/04-widgets/widget.test.js:137",
             "Test Widgets on Demo QA site"
           ],
           "ok": true
@@ -378,13 +378,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/04-widgets/widget.test.js",
-            "line": 163,
+            "line": 154,
             "column": 5
           },
-          "duration": 25961,
+          "duration": 14478,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/04-widgets/widget.test.js:163",
+            "tests/demo-qa/04-widgets/widget.test.js:154",
             "Test Widgets on Demo QA site"
           ],
           "ok": true
@@ -395,13 +395,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/04-widgets/widget.test.js",
-            "line": 192,
+            "line": 183,
             "column": 5
           },
-          "duration": 6446,
+          "duration": 4480,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/04-widgets/widget.test.js:192",
+            "tests/demo-qa/04-widgets/widget.test.js:183",
             "Test Widgets on Demo QA site"
           ],
           "ok": true
@@ -412,13 +412,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/04-widgets/widget.test.js",
-            "line": 293,
+            "line": 284,
             "column": 5
           },
-          "duration": 9930,
+          "duration": 7441,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/04-widgets/widget.test.js:293",
+            "tests/demo-qa/04-widgets/widget.test.js:284",
             "Test Widgets on Demo QA site"
           ],
           "ok": true
@@ -429,13 +429,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/04-widgets/widget.test.js",
-            "line": 324,
+            "line": 315,
             "column": 5
           },
-          "duration": 6109,
+          "duration": 4106,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/04-widgets/widget.test.js:324",
+            "tests/demo-qa/04-widgets/widget.test.js:315",
             "Test Widgets on Demo QA site"
           ],
           "ok": true
@@ -446,13 +446,13 @@
           "projectName": "",
           "location": {
             "file": "tests/demo-qa/04-widgets/widget.test.js",
-            "line": 347,
+            "line": 338,
             "column": 5
           },
-          "duration": 9185,
+          "duration": 4411,
           "outcome": "expected",
           "path": [
-            "tests/demo-qa/04-widgets/widget.test.js:347",
+            "tests/demo-qa/04-widgets/widget.test.js:338",
             "Test Widgets on Demo QA site"
           ],
           "ok": true
@@ -465,7 +465,7 @@
         "flaky": 0,
         "skipped": 0,
         "ok": true,
-        "duration": 93526
+        "duration": 55722
       }
     }
   ],
@@ -479,6 +479,6 @@
     "flaky": 0,
     "skipped": 0,
     "ok": true,
-    "duration": 208489
+    "duration": 135393
   }
 }
